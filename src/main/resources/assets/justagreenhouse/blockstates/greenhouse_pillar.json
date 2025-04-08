@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "justagreenhouse:block/greenhouse_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "justagreenhouse:block/greenhouse_pillar"
+    },
+    "axis=z": {
+      "model": "justagreenhouse:block/greenhouse_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

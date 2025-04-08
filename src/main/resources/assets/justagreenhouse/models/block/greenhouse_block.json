@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "justagreenhouse:block/greenhouse_block"
+  }
+}
