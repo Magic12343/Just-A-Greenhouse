@@ -3,6 +3,9 @@
   "block.justagreenhouse.greenhouse_glass": "Greenhouse Glass",
   "block.justagreenhouse.greenhouse_pillar": "Greenhouse Pillar",
   "block.justagreenhouse.greenhouse_block": "Greenhouse Block",
+  "block.justagreenhouse.greenhouse_iron_ingot": "Greenhouse Iron Ingot",
+  "block.justagreenhouse.greenhouse_door": "Greenhouse Door",
+  "block.justagreenhouse.greenhouse_lantern": "Greenhouse Lantern",
 
   "creativetab.greenhouse_tab": "Just A Greenhouse"
 }

@@ -19,9 +19,12 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.GREENHOUSE_GLASS.get()))
                     .title(Component.translatable("creativetab.greenhouse_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.GREENHOUSE_IRON_INGOT.get());
                         pOutput.accept(ModBlocks.GREENHOUSE_GLASS.get());
                         pOutput.accept(ModBlocks.GREENHOUSE_BLOCK.get());
                         pOutput.accept(ModBlocks.GREENHOUSE_PILLAR.get());
+                        pOutput.accept(ModBlocks.GREENHOUSE_DOOR.get());
+                        pOutput.accept(ModBlocks.GREENHOUSE_LANTERN.get());
 
                     })
                     .build());

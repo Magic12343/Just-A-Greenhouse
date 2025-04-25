@@ -6,6 +6,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -25,6 +26,12 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GREENHOUSE_BLOCK = registerBlock("greenhouse_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN)));
+
+    public static final RegistryObject<DoorBlock> GREENHOUSE_DOOR = registerBlock("greenhouse_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN).noOcclusion(), BlockSetType.IRON));
+
+    public static final RegistryObject<LanternBlock> GREENHOUSE_LANTERN = registerBlock("greenhouse_lantern",
+            () -> new LanternBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
