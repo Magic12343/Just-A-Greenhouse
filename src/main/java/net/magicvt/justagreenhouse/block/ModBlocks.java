@@ -31,7 +31,7 @@ public class ModBlocks {
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN).noOcclusion(), BlockSetType.ACACIA));
 
     public static final RegistryObject<LanternBlock> GREENHOUSE_LANTERN = registerBlock("greenhouse_lantern",
-            () -> new LanternBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN)));
+            () -> new LanternBlock(BlockBehaviour.Properties.copy(Blocks.LANTERN).sound(SoundType.LANTERN)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
