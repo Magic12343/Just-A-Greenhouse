@@ -22,6 +22,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.GREENHOUSE_IRON_INGOT.get());
                         pOutput.accept(ModBlocks.GREENHOUSE_GLASS.get());
                         pOutput.accept(ModBlocks.GREENHOUSE_BLOCK.get());
+                        pOutput.accept(ModBlocks.GREENHOUSE_STAIRS.get());
+                        pOutput.accept(ModBlocks.GREENHOUSE_SLAB.get());
                         pOutput.accept(ModBlocks.GREENHOUSE_PILLAR.get());
                         pOutput.accept(ModBlocks.GREENHOUSE_DOOR.get());
                         pOutput.accept(ModBlocks.GREENHOUSE_LANTERN.get());

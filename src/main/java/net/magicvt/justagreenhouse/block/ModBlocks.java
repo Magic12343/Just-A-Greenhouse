@@ -26,6 +26,11 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GREENHOUSE_BLOCK = registerBlock("greenhouse_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN)));
+    public static final RegistryObject<Block> GREENHOUSE_STAIRS = registerBlock("greenhouse_stairs",
+            () -> new StairBlock(() -> ModBlocks.GREENHOUSE_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN)));
+    public static final RegistryObject<Block> GREENHOUSE_SLAB = registerBlock("greenhouse_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN)));
 
     public static final RegistryObject<DoorBlock> GREENHOUSE_DOOR = registerBlock("greenhouse_door",
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN).noOcclusion(), BlockSetType.ACACIA));
