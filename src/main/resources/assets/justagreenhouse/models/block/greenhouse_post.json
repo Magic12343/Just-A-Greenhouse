@@ -1,10 +1,10 @@
 {
+	"render_type": "minecraft:cutout_mipped",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "justagreenhouse:block/greenhouse_post",
 		"particle": "justagreenhouse:block/greenhouse_block"
 	},
-  "render_type": "minecraft:cutout_mipped",
 	"elements": [
 		{
 			"from": [7, 0, 7],

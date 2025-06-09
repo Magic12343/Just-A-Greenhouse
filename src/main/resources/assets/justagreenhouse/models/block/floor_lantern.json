@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
+    "render_type": "minecraft:cutout_mipped",
 	"textures": {
 		"0": "justagreenhouse:block/floor_lantern",
 		"particle": "justagreenhouse:block/greenhouse_block"
 	},
-  "render_type": "minecraft:cutout_mipped",
 	"elements": [
 		{
 			"from": [7, 0, 7],

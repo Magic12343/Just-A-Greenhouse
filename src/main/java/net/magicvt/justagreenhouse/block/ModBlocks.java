@@ -33,6 +33,12 @@ public class ModBlocks {
     public static final RegistryObject<LanternBlock> GREENHOUSE_LANTERN = registerBlock("greenhouse_lantern",
             () -> new LanternBlock(BlockBehaviour.Properties.copy(Blocks.LANTERN).sound(SoundType.LANTERN)));
 
+    public static final RegistryObject<Block> GREENHOUSE_POST = registerBlock("greenhouse_post",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TORCH).sound(SoundType.LANTERN)));
+
+    public static final RegistryObject<Block> FLOOR_LANTERN = registerBlock("floor_lantern",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TORCH).sound(SoundType.LANTERN)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

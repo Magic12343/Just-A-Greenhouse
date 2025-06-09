@@ -25,6 +25,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.GREENHOUSE_PILLAR.get());
                         pOutput.accept(ModBlocks.GREENHOUSE_DOOR.get());
                         pOutput.accept(ModBlocks.GREENHOUSE_LANTERN.get());
+                        pOutput.accept(ModBlocks.GREENHOUSE_POST.get());
+                        pOutput.accept(ModBlocks.FLOOR_LANTERN.get());
 
                     })
                     .build());
