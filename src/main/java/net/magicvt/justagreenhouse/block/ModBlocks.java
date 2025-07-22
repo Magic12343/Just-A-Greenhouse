@@ -44,6 +44,19 @@ public class ModBlocks {
     public static final RegistryObject<Block> FLOOR_LANTERN = registerBlock("floor_lantern",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.TORCH).sound(SoundType.LANTERN)));
 
+    //Seedbags
+
+    public static final RegistryObject<Block> WHEAT_SEED_BAG = registerBlock("wheat_seed_bag",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> MELON_SEED_BAG = registerBlock("melon_seed_bag",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> BEETROOT_SEED_BAG = registerBlock("beetroot_seed_bag",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> PUMPKIN_SEED_BAG = registerBlock("pumpkin_seed_bag",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL)));
+
+
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

@@ -29,6 +29,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.GREENHOUSE_LANTERN.get());
                         pOutput.accept(ModBlocks.GREENHOUSE_POST.get());
                         pOutput.accept(ModBlocks.FLOOR_LANTERN.get());
+                        pOutput.accept(ModBlocks.WHEAT_SEED_BAG.get());
+                        pOutput.accept(ModBlocks.MELON_SEED_BAG.get());
+                        pOutput.accept(ModBlocks.BEETROOT_SEED_BAG.get());
+                        pOutput.accept(ModBlocks.PUMPKIN_SEED_BAG.get());
 
                     })
                     .build());
