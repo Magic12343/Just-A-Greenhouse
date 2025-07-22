@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "justagreenhouse:block/melon_seeds_bag_front",
+    "side": "justagreenhouse:block/bag_summer_side",
+    "top": "justagreenhouse:block/melon_seeds_bag_top",
+	"down": "justagreenhouse:block/bag_summer_bottom"
+  }
+}
