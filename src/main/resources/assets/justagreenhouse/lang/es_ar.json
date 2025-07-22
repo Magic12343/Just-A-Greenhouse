@@ -1,0 +1,18 @@
+{
+	
+  "block.justagreenhouse.greenhouse_glass": "Vidrio templado",
+  "block.justagreenhouse.greenhouse_pillar": "Pilar de invernadero",
+  "block.justagreenhouse.greenhouse_block": "Bloque de invernadero",
+  "item.justagreenhouse.greenhouse_iron_ingot": "Lingote de hierro templado",
+  "block.justagreenhouse.greenhouse_door": "Puerta de invernadero",
+  "block.justagreenhouse.greenhouse_lantern": "Linterna de invernadero",
+
+  "block.justagreenhouse.wheat_seed_bag": "Bolsa de semillas de trigo",
+  "block.justagreenhouse.melon_seed_bag": "Bolsa de semillas de sandía",
+  "block.justagreenhouse.tomato_seed_bag": "Bolsa de semillas de tomate",
+  "block.justagreenhouse.beetroot_seed_bag": "Bolsa de semillas de remolacha",
+  "block.justagreenhouse.pumpkin_seed_bag": "Bolsa de semillas de zapallo",
+  "block.justagreenhouse.cabbage_seed_bag": "Bolsa de semillas de repollo",
+
+  "creativetab.greenhouse_tab": "Just A Greenhouse"
+}

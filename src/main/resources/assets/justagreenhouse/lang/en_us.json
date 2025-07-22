@@ -7,5 +7,12 @@
   "block.justagreenhouse.greenhouse_door": "Greenhouse Door",
   "block.justagreenhouse.greenhouse_lantern": "Greenhouse Lantern",
 
+  "block.justagreenhouse.wheat_seed_bag": "Wheat Seed Bag",
+  "block.justagreenhouse.melon_seed_bag": "Melon Seed Bag",
+  "block.justagreenhouse.tomato_seed_bag": "Tomato Seed Bag",
+  "block.justagreenhouse.beetroot_seed_bag": "Beetroot Seed Bag",
+  "block.justagreenhouse.pumpkin_seed_bag": "Pumpkin Seed Bag",
+  "block.justagreenhouse.cabbage_seed_bag": "Cabbage Seed Bag",
+
   "creativetab.greenhouse_tab": "Just A Greenhouse"
 }

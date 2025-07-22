@@ -39,7 +39,15 @@ authors="MagicVT" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''An expansion to Serene Seasons that adds a block that uses the Greenhouse Mechanics and more.'''
+description='''An expansion to Serene Seasons that adds a block that uses the Greenhouse Mechanics and more.
+
+Now with the Seed Drop!
+Changelog:
+-More Decorative Blocks for your greenhouses.
+-New Seed Bags Blocks for decoration.
+-A new Greenhouse Blocks Recipe (Now its more logic and a little bit more expensive)
+-Now with Farmers Delight Compat! Enjoy your new Seed Bags!
+-New Language: Español Argentina!'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.justagreenhouse]] #optional
     # the modid of the dependency
