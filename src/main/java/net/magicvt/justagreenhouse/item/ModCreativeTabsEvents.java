@@ -14,13 +14,16 @@ public class ModCreativeTabsEvents {
 
     @SubscribeEvent
     public static void buildCreativeTabs(BuildCreativeModeTabContentsEvent event) {
-        //Verifies the creativetab.
         if (event.getTab() == ModCreativeModTabs.TUTORIAL_TAB.get()) {
-            //Only adds the item if its loaded.
             if (ModList.get().isLoaded("farmersdelight")) {
-                event.accept(FDCompatBlocks.TOMATO_SEED_BAG_ITEM);
-                event.accept(FDCompatBlocks.CABBAGE_SEED_BAG_ITEM);
+                if (FDCompatBlocks.TOMATO_SEED_BAG_ITEM.isPresent()) {
+                    event.accept(FDCompatBlocks.TOMATO_SEED_BAG_ITEM.get());
+                }
+                if (FDCompatBlocks.CABBAGE_SEED_BAG_ITEM.isPresent()) {
+                    event.accept(FDCompatBlocks.CABBAGE_SEED_BAG_ITEM.get());
+                }
             }
         }
     }
 }
+

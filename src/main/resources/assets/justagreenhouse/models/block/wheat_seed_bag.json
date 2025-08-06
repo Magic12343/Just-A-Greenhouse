@@ -4,6 +4,6 @@
     "front": "justagreenhouse:block/wheat_seeds_bag_front",
     "side": "justagreenhouse:block/wheat_seeds_bag_side",
     "top": "justagreenhouse:block/wheat_seeds_bag_top",
-	"down": "justagreenhouse:block/wheat_seeds_bag_bottom"
+	"bottom": "justagreenhouse:block/wheat_seeds_bag_bottom"
   }
 }

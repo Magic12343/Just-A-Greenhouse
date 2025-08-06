@@ -4,6 +4,6 @@
     "front": "justagreenhouse:block/cabbage_seeds_bag_front",
     "side": "justagreenhouse:block/cabbage_seeds_bag_side",
     "top": "justagreenhouse:block/cabbage_seeds_bag_top",
-	"down": "justagreenhouse:block/cabbage_seeds_bag_bottom"
+	"bottom": "justagreenhouse:block/cabbage_seeds_bag_bottom"
   }
 }

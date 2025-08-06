@@ -24,35 +24,35 @@ public class JustAGreenhouse {
     public JustAGreenhouse() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        //Registers
+        // Registro base
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
-        //Setup
+        // Compatibilidad
+        CompatHandler.init(modEventBus);
+
+        // Eventos comunes
         modEventBus.addListener(this::commonSetup);
 
-        //Events
+        // Eventos Forge generales
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        //Compat Handler
-        CompatHandler.init(event, FMLJavaModLoadingContext.get().getModEventBus());
+        // Aquí va código de setup general, no registros
     }
 
-    //Server Events
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-        // Código cuando inicia el servidor
+        // Código del servidor
     }
 
-    //Client Events
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            // Others
+            // Código cliente
         }
     }
 }
