@@ -55,6 +55,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> PUMPKIN_SEED_BAG = registerBlock("pumpkin_seed_bag",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL)));
 
+    //Seed Maker
+    public static final RegistryObject<Block> SEED_MAKER = BLOCKS.register("seed_maker",
+            () -> new SeedMakerBlock());
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

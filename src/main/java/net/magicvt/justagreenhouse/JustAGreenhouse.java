@@ -2,9 +2,11 @@ package net.magicvt.justagreenhouse;
 
 import com.mojang.logging.LogUtils;
 import net.magicvt.justagreenhouse.block.ModBlocks;
+import net.magicvt.justagreenhouse.blockentity.ModBlockEntities;
 import net.magicvt.justagreenhouse.compat.CompatHandler;
 import net.magicvt.justagreenhouse.item.ModCreativeModTabs;
 import net.magicvt.justagreenhouse.item.ModItems;
+import net.magicvt.justagreenhouse.recipe.ModRecipes;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -28,6 +30,9 @@ public class JustAGreenhouse {
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModRecipes.register();
+        ModBlockEntities.register();
+
 
         // Compatibilidad
         CompatHandler.init(modEventBus);
