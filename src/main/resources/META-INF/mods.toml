@@ -25,7 +25,7 @@ displayName="Just A Greenhouse" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="examplemod.png" #optional
+logoFile="logo.png"
 # A text field displayed in the mod UI
 #credits="" #optional
 # A text field displayed in the mod UI
@@ -43,11 +43,10 @@ authors="MagicVT" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''An expansion to Serene Seasons that adds a block that uses the Greenhouse Mechanics and more.
 
-Now with the Seed Drop!
 Changelog:
 -More Decorative Blocks for your greenhouses.
 -New Seed Bags Blocks for decoration (They are compatible with Farmers Delight!!).
--A new Greenhouse Blocks Recipe (Now they are logic and a little bit more expensive)
+-New Greenhouse Blocks Recipes (Now they are logic and a little bit more expensive)
 -New Block: The Seed Maker, you can grind all the seedable crops to make even more seeds, no GUIs, simple to understand!
 -New Language: Español Argentina!'''
 

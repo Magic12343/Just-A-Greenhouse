@@ -1,10 +1,12 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        "justagreenhouse:pitcher_pod_bag"
+        {
+            "item": "justagreenhouse:pitcher_pod_bag"
+        }
     ],
     "result": {
-        "id": "minecraft:pitcher_pod",
+        "item": "minecraft:pitcher_pod",
         "count": 9
     }
 }

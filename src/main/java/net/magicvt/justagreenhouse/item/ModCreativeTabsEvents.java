@@ -2,7 +2,6 @@ package net.magicvt.justagreenhouse.item;
 
 import net.magicvt.justagreenhouse.JustAGreenhouse;
 import net.magicvt.justagreenhouse.compat.FDCompatBlocks;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

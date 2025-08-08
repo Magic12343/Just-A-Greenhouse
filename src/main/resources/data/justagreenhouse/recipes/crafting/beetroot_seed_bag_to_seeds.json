@@ -1,10 +1,12 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        "justagreenhouse:beetroot_seed_bag"
+        {
+            "item": "justagreenhouse:beetroot_seed_bag"
+        }
     ],
     "result": {
-        "id": "minecraft:beetroot_seeds",
+        "item": "minecraft:beetroot_seeds",
         "count": 9
     }
 }

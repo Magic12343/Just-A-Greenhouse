@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "farmersdelight:tomato"
   },
-  "result": "farmersdelight:tomato_seeds",
-  "count": 6
+  "result": "justagreenhouse:tomato_seed_bag",
+  "count": 1
 }

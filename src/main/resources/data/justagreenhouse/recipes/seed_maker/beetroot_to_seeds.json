@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:beetroot"
   },
-  "result": "minecraft:beetroot_seeds",
-  "count": 6
+  "result": "justagreenhouse:beetroot_seed_bag",
+  "count": 1
 }

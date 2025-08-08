@@ -1,10 +1,12 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        "justagreenhouse:cabbage_seed_bag"
+        {
+            "item": "justagreenhouse:cabbage_seed_bag"
+        }
     ],
     "result": {
-        "id": "farmersdelight:cabbage_seeds",
+        "item": "farmersdelight:cabbage_seeds",
         "count": 9
     }
 }

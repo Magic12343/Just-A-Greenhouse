@@ -19,32 +19,41 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, JustAGreenhouse.MOD_ID);
 
     public static final RegistryObject<Block> GREENHOUSE_GLASS = registerBlock("greenhouse_glass",
-            () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).sound(SoundType.LANTERN)));
+            () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).sound(SoundType.LANTERN).strength(2.0f, 3.0f)));
 
     public static final RegistryObject<Block> GREENHOUSE_PILLAR = registerBlock("greenhouse_pillar",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.QUARTZ_PILLAR).sound(SoundType.LANTERN)));
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(1.0f, 3.0f)
+                    .sound(SoundType.LANTERN)));
 
     public static final RegistryObject<Block> GREENHOUSE_BLOCK = registerBlock("greenhouse_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(1.0f, 3.0f)
+                    .sound(SoundType.LANTERN)));
 
     public static final RegistryObject<Block> GREENHOUSE_STAIRS = registerBlock("greenhouse_stairs",
             () -> new StairBlock(() -> ModBlocks.GREENHOUSE_BLOCK.get().defaultBlockState(),
-                    BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN)));
+                    BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(1.0f, 3.0f)
+                            .sound(SoundType.LANTERN)));
 
     public static final RegistryObject<Block> GREENHOUSE_SLAB = registerBlock("greenhouse_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN)));
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(1.0f, 3.0f)
+                    .sound(SoundType.LANTERN)));
+
 
     public static final RegistryObject<DoorBlock> GREENHOUSE_DOOR = registerBlock("greenhouse_door",
-            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN).noOcclusion(), BlockSetType.ACACIA));
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR)
+                    .strength(1.0f, 3.0f)
+                    .noOcclusion()
+                    .sound(SoundType.LANTERN),
+                    BlockSetType.ACACIA));
 
     public static final RegistryObject<LanternBlock> GREENHOUSE_LANTERN = registerBlock("greenhouse_lantern",
-            () -> new LanternBlock(BlockBehaviour.Properties.copy(Blocks.LANTERN).sound(SoundType.LANTERN)));
+            () -> new LanternBlock(BlockBehaviour.Properties.copy(Blocks.LANTERN).sound(SoundType.LANTERN).strength(1.0f, 3.0f)));
 
     public static final RegistryObject<Block> GREENHOUSE_POST = registerBlock("greenhouse_post",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TORCH).sound(SoundType.LANTERN)));
+            () -> new FakeFence(BlockBehaviour.Properties.copy(Blocks.TORCH).sound(SoundType.LANTERN).noCollission()));
 
     public static final RegistryObject<Block> FLOOR_LANTERN = registerBlock("floor_lantern",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TORCH).sound(SoundType.LANTERN)));
+            () -> new FakeFence(BlockBehaviour.Properties.copy(Blocks.TORCH).sound(SoundType.LANTERN).noCollission()));
 
     // Seedbags
     public static final RegistryObject<Block> WHEAT_SEED_BAG = registerBlock("wheat_seed_bag",

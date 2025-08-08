@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:wheat"
   },
-  "result": "minecraft:wheat_seeds",
-  "count": 6
+  "result": "justagreenhouse:wheat_seed_bag",
+  "count": 1
 }

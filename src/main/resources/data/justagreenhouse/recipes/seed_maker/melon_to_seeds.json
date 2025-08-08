@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:melon"
   },
-  "result": "minecraft:melon_seeds",
-  "count": 12
+  "result": "justagreenhouse:melon_seed_bag",
+  "count": 1
 }

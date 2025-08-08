@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "farmersdelight:cabbage"
   },
-  "result": "farmersdelight:cabbage_seeds",
-  "count": 6
+  "result": "justagreenhouse:cabbage_seed_bag",
+  "count": 1
 }

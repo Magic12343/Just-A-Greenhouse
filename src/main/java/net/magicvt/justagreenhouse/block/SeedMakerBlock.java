@@ -38,7 +38,8 @@ public class SeedMakerBlock extends Block implements EntityBlock {
     private static final VoxelShape SHAPE_WEST  = Block.box(0.0, 0.0, 0.0, 16.0, 8.0, 16.0);
 
     public SeedMakerBlock() {
-        super(Properties.copy(Blocks.IRON_BLOCK));
+        super(Properties.copy(Blocks.CRAFTING_TABLE)
+                .sound(SoundType.LANTERN));
         this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, Direction.NORTH)
                 .setValue(LIT, false));

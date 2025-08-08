@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"justagreenhouse:wheat_seed_bag",
+		"justagreenhouse:melon_seed_bag",
+		"justagreenhouse:torchflower_seed_bag",
+		"justagreenhouse:pitcher_pod_bag",
+		"justagreenhouse:tomato_seed_bag"
+	]
+}

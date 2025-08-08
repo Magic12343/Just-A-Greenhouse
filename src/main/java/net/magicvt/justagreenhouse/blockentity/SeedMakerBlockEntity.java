@@ -4,14 +4,11 @@ import net.magicvt.justagreenhouse.block.SeedMakerBlock;
 import net.magicvt.justagreenhouse.recipe.ModRecipes;
 import net.magicvt.justagreenhouse.recipe.SeedMakerRecipe;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.particles.BlockParticleOption;
-import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 
@@ -22,7 +19,7 @@ public class SeedMakerBlockEntity extends BlockEntity {
     private ItemStack input = ItemStack.EMPTY;
     private ItemStack result = ItemStack.EMPTY;
     private int progress = 0;
-    private static final int MAX_PROGRESS = 20 * 60 * 3; // 3 minutos
+    private static final int MAX_PROGRESS = 20 * 60 * 2;
 
     public SeedMakerBlockEntity(BlockPos pos, BlockState state) {
         super(ModBlockEntities.SEED_MAKER.get(), pos, state);
@@ -97,17 +94,6 @@ public class SeedMakerBlockEntity extends BlockEntity {
                         SoundSource.BLOCKS,
                         0.5F, 1.0F, false);
             }
-
-            // Particles
-            double x = pos.getX() + 0.5 + (level.random.nextDouble() - 0.5) * 0.6;
-            double y = pos.getY() + 0.1;
-            double z = pos.getZ() + 0.5 + (level.random.nextDouble() - 0.5) * 0.6;
-
-            level.addParticle(
-                    new BlockParticleOption(ParticleTypes.BLOCK, Blocks.DIRT.defaultBlockState()),
-                    x, y, z,
-                    0.0, 0.5, 0.0
-            );
         }
     }
 }

@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:pumpkin"
   },
-  "result": "minecraft:pumpkin_seeds",
-  "count": 10
+  "result": "justagreenhouse:pumpkin_seed_bag",
+  "count": 1
 }
