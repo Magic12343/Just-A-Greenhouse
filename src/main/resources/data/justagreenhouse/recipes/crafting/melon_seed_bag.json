@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:melon_seeds"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:melon_seed_bag",
+        "count": 1
+    }
+}

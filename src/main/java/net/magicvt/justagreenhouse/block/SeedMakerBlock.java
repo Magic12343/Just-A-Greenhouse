@@ -19,6 +19,7 @@ import net.minecraft.world.level.block.entity.BlockEntityTicker;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -29,6 +30,7 @@ import org.jetbrains.annotations.Nullable;
 public class SeedMakerBlock extends Block implements EntityBlock {
 
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
+    public static final BooleanProperty LIT = BooleanProperty.create("lit");
 
     private static final VoxelShape SHAPE_NORTH = Block.box(0.0, 0.0, 0.0, 16.0, 8.0, 16.0);
     private static final VoxelShape SHAPE_SOUTH = Block.box(0.0, 0.0, 0.0, 16.0, 8.0, 16.0);
@@ -37,18 +39,22 @@ public class SeedMakerBlock extends Block implements EntityBlock {
 
     public SeedMakerBlock() {
         super(Properties.copy(Blocks.IRON_BLOCK));
-        this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
+        this.registerDefaultState(this.stateDefinition.any()
+                .setValue(FACING, Direction.NORTH)
+                .setValue(LIT, false));
     }
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(FACING);
+        builder.add(FACING, LIT);
     }
 
     @Nullable
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
-        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
+        return this.defaultBlockState()
+                .setValue(FACING, context.getHorizontalDirection().getOpposite())
+                .setValue(LIT, false);
     }
 
     @Override
@@ -88,7 +94,9 @@ public class SeedMakerBlock extends Block implements EntityBlock {
 
             if (seedMaker.tryStartProcessing(heldItem)) {
                 heldItem.shrink(1);
-                level.playSound(null, pos, SoundEvents.COMPOSTER_FILL, SoundSource.BLOCKS, 1.0f, 1.0f);
+                // LIT
+                level.setBlock(pos, state.setValue(LIT, true), 3);
+                level.playSound(null, pos, SoundEvents.BARREL_OPEN, SoundSource.BLOCKS, 1.0f, 1.0f);
                 return InteractionResult.CONSUME;
             }
         }
@@ -105,13 +113,25 @@ public class SeedMakerBlock extends Block implements EntityBlock {
     @Nullable
     @Override
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState state, BlockEntityType<T> type) {
-        if (!level.isClientSide && type == ModBlockEntities.SEED_MAKER.get()) {
+        if (type != ModBlockEntities.SEED_MAKER.get()) return null;
+
+        if (level.isClientSide) {
+            // Client Sound
+            return (lvl, pos, blockState, be) -> {
+                if (blockState.getValue(LIT) && lvl.random.nextInt(10) == 0) {
+                    lvl.playLocalSound(pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5,
+                            SoundEvents.COMPOSTER_FILL,
+                            SoundSource.BLOCKS,
+                            0.5F, 1.0F, false);
+                }
+            };
+        } else {
+            // Server Tick
             return (lvl, pos, blockState, be) -> {
                 if (be instanceof SeedMakerBlockEntity seedMaker) {
                     SeedMakerBlockEntity.tick(lvl, pos, blockState, seedMaker);
                 }
             };
         }
-        return null;
     }
 }

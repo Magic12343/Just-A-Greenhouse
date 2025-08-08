@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:iron_ingot"
+    },
+    "result": "justagreenhouse:greenhouse_iron_ingot",
+    "experience": 0.1,
+    "cookingtime": 600
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "#M#",
+        "BBB"
+    ],
+    "key": {
+        "#": {
+      "tag": "minecraft:planks"
+              },
+        "M": {
+            "item": "minecraft:hopper"
+        },
+        "B": {
+            "item": "justagreenhouse:greenhouse_iron_ingot"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:seed_maker",
+        "count": 1
+    }
+}
