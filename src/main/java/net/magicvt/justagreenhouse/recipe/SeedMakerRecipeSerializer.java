@@ -12,11 +12,9 @@ public class SeedMakerRecipeSerializer implements RecipeSerializer<SeedMakerReci
 
     @Override
     public SeedMakerRecipe fromJson(ResourceLocation id, JsonObject json) {
-        // Leer el ingrediente (soporta item, tag, etc.)
         JsonObject ingredientObj = GsonHelper.getAsJsonObject(json, "ingredient");
         Ingredient ingredient = Ingredient.fromJson(ingredientObj);
 
-        // Leer el resultado y cantidad
         String resultId = GsonHelper.getAsString(json, "result");
         int count = GsonHelper.getAsInt(json, "count", 1);
         ItemStack result = new ItemStack(net.minecraft.core.registries.BuiltInRegistries.ITEM.get(

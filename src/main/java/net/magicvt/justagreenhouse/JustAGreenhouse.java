@@ -34,30 +34,30 @@ public class JustAGreenhouse {
         ModBlockEntities.register();
 
 
-        // Compatibilidad
+        // Compat
         CompatHandler.init(modEventBus);
 
-        // Eventos comunes
+        // Events
         modEventBus.addListener(this::commonSetup);
 
-        // Eventos Forge generales
+        // Forge Events
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        // Aquí va código de setup general, no registros
+        // Setup
     }
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-        // Código del servidor
+        // Server
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            // Código cliente
+            // Client
         }
     }
 }

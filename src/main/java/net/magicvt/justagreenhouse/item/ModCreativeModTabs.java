@@ -32,6 +32,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.SEED_MAKER.get());
                         pOutput.accept(ModBlocks.WHEAT_SEED_BAG.get());
                         pOutput.accept(ModBlocks.MELON_SEED_BAG.get());
+                        pOutput.accept(ModBlocks.TORCHFLOWER_SEED_BAG.get());
+                        pOutput.accept(ModBlocks.PITCHER_POD_BAG.get());
                         pOutput.accept(ModBlocks.BEETROOT_SEED_BAG.get());
                         pOutput.accept(ModBlocks.PUMPKIN_SEED_BAG.get());
 
