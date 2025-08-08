@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "minecraft:torchflower"
+  },
+  "result": "minecraft:torchflower_seeds",
+  "count": 3
+}

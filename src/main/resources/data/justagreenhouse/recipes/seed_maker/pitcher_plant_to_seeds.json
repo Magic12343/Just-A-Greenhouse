@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "minecraft:pitcher_plant"
+  },
+  "result": "minecraft:pitcher_pod",
+  "count": 3
+}
