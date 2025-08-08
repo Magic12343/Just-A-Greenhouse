@@ -1,7 +1,20 @@
 {
+
   "variants": {
-    "": {
+    "facing=east": {
+      "model": "justagreenhouse:block/seed_maker",
+      "y": 90
+    },
+    "facing=north": {
       "model": "justagreenhouse:block/seed_maker"
+    },
+    "facing=south": {
+      "model": "justagreenhouse:block/seed_maker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "justagreenhouse:block/seed_maker",
+      "y": 270
     }
   }
 }

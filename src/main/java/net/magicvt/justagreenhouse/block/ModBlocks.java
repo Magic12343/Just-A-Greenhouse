@@ -26,9 +26,11 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GREENHOUSE_BLOCK = registerBlock("greenhouse_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN)));
+
     public static final RegistryObject<Block> GREENHOUSE_STAIRS = registerBlock("greenhouse_stairs",
             () -> new StairBlock(() -> ModBlocks.GREENHOUSE_BLOCK.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN)));
+
     public static final RegistryObject<Block> GREENHOUSE_SLAB = registerBlock("greenhouse_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.LANTERN)));
 
@@ -44,21 +46,22 @@ public class ModBlocks {
     public static final RegistryObject<Block> FLOOR_LANTERN = registerBlock("floor_lantern",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.TORCH).sound(SoundType.LANTERN)));
 
-    //Seedbags
-
+    // Seedbags
     public static final RegistryObject<Block> WHEAT_SEED_BAG = registerBlock("wheat_seed_bag",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL)));
+
     public static final RegistryObject<Block> MELON_SEED_BAG = registerBlock("melon_seed_bag",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL)));
+
     public static final RegistryObject<Block> BEETROOT_SEED_BAG = registerBlock("beetroot_seed_bag",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL)));
+
     public static final RegistryObject<Block> PUMPKIN_SEED_BAG = registerBlock("pumpkin_seed_bag",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL)));
 
-    //Seed Maker
-    public static final RegistryObject<Block> SEED_MAKER = BLOCKS.register("seed_maker",
+    // Seed Maker
+    public static final RegistryObject<Block> SEED_MAKER = registerBlock("seed_maker",
             () -> new SeedMakerBlock());
-
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

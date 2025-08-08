@@ -1,9 +1,8 @@
 {
-  "parent": "minecraft:block/orientable",
+  "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "front": "justagreenhouse:block/cabbage_seeds_bag_front",
+    "bottom": "justagreenhouse:block/cabbage_seeds_bag_bottom",
     "side": "justagreenhouse:block/cabbage_seeds_bag_side",
-    "top": "justagreenhouse:block/cabbage_seeds_bag_top",
-	"bottom": "justagreenhouse:block/cabbage_seeds_bag_bottom"
+    "top": "justagreenhouse:block/cabbage_seeds_bag_top"
   }
 }

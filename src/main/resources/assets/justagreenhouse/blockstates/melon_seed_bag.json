@@ -1,19 +1,7 @@
 {
   "variants": {
-    "facing=east": {
-      "model": "justagreenhouse:block/melon_seed_bag",
-      "y": 90
-    },
-    "facing=north": {
+    "": {
       "model": "justagreenhouse:block/melon_seed_bag"
-    },
-    "facing=south": {
-      "model": "justagreenhouse:block/melon_seed_bag",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "justagreenhouse:block/melon_seed_bag",
-      "y": 270
     }
   }
 }

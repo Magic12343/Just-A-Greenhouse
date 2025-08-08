@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "farmersdelight:tomato"
+  },
+  "result": "farmersdelight:tomato_seeds",
+  "count": 6
+}

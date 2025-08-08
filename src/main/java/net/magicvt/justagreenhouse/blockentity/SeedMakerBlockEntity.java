@@ -5,6 +5,8 @@ import net.magicvt.justagreenhouse.recipe.SeedMakerRecipe;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.SimpleContainer;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.item.ItemStack;
@@ -55,15 +57,23 @@ public class SeedMakerBlockEntity extends BlockEntity {
 
     private void finishProcessing() {
         if (!level.isClientSide && !result.isEmpty()) {
-            ItemEntity item = new ItemEntity(level, worldPosition.getX() + 0.5,
-                    worldPosition.getY() + 1, worldPosition.getZ() + 0.5, result.copy());
+            ItemEntity item = new ItemEntity(level,
+                    worldPosition.getX() + 0.5,
+                    worldPosition.getY() + 1.0,
+                    worldPosition.getZ() + 0.5,
+                    result.copy());
             level.addFreshEntity(item);
+
+            // Sound
+            level.playSound(null, worldPosition, SoundEvents.BARREL_CLOSE, SoundSource.BLOCKS, 1.0f, 1.0f);
         }
 
         result = ItemStack.EMPTY;
         progress = 0;
         setChanged();
     }
+
+
 
     public boolean isProcessing() {
         return progress > 0;
@@ -84,6 +94,8 @@ public class SeedMakerBlockEntity extends BlockEntity {
             result = ItemStack.of(tag.getCompound("Result"));
         }
     }
+
+
 
     public static void tick(Level level, BlockPos pos, BlockState state, SeedMakerBlockEntity blockEntity) {
         blockEntity.tickServer();

@@ -1,9 +1,8 @@
 {
-  "parent": "minecraft:block/orientable",
+  "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "front": "justagreenhouse:block/tomato_seeds_bag_front",
+    "bottom": "justagreenhouse:block/bag_summer_bottom",
     "side": "justagreenhouse:block/bag_summer_side",
-    "top": "justagreenhouse:block/tomato_seeds_bag_top",
-	"bottom": "justagreenhouse:block/bag_summer_bottom"
+    "top": "justagreenhouse:block/tomato_seeds_bag_top"
   }
 }
