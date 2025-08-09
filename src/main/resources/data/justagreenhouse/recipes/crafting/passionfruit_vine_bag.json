@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "atmospheric:passion_fruit_vine"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:passionfruit_vine_bag",
+        "count": 1
+    }
+}

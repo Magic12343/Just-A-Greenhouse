@@ -11,7 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class FDCompatBlocks {
+public class BGCompatBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, JustAGreenhouse.MOD_ID);
 
@@ -19,20 +19,20 @@ public class FDCompatBlocks {
             DeferredRegister.create(ForgeRegistries.ITEMS, JustAGreenhouse.MOD_ID);
 
     //Blocks
-    public static final RegistryObject<Block> TOMATO_SEED_BAG =
-            BLOCKS.register("tomato_seed_bag", () ->
+    public static final RegistryObject<Block> SWEET_BERRIES_PIPS_BAG =
+            BLOCKS.register("sweet_berries_pips_bag", () ->
                     new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).strength(1.0f)));
-    public static final RegistryObject<Block> CABBAGE_SEED_BAG =
-            BLOCKS.register("cabbage_seed_bag", () ->
-                    new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).strength(1.0f)));
+    public static final RegistryObject<Block> GLOW_BERRIES_PIPS_BAG =
+            BLOCKS.register("glow_berries_pips_bag", () ->
+                    new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).strength(1.0f).lightLevel(state -> 14) ));
 
     //Items
-    public static final RegistryObject<Item> TOMATO_SEED_BAG_ITEM =
-            ITEMS.register("tomato_seed_bag", () ->
-                    new BlockItem(TOMATO_SEED_BAG.get(), new Item.Properties()));
-    public static final RegistryObject<Item> CABBAGE_SEED_BAG_ITEM =
-            ITEMS.register("cabbage_seed_bag", () ->
-                    new BlockItem(CABBAGE_SEED_BAG.get(), new Item.Properties()));
+    public static final RegistryObject<Item> SWEET_BERRIES_PIPS_BAG_ITEM =
+            ITEMS.register("sweet_berries_pips_bag", () ->
+                    new BlockItem(SWEET_BERRIES_PIPS_BAG.get(), new Item.Properties()));
+    public static final RegistryObject<Item> GLOW_BERRIES_PIPS_BAG_ITEM =
+            ITEMS.register("glow_berries_pips_bag", () ->
+                    new BlockItem(GLOW_BERRIES_PIPS_BAG.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "atmospheric:passion_fruit"
+  },
+  "result": "justagreenhouse:passionfruit_vine_bag",
+  "count": 1
+}

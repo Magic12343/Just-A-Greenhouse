@@ -8,5 +8,13 @@ public class CompatHandler {
         if (ModList.get().isLoaded("farmersdelight")) {
             FarmersDelightCompat.init(modEventBus);
         }
+
+        if (ModList.get().isLoaded("berry_good")) {
+            BerryGoodCompat.init(modEventBus);
+        }
+
+        if (ModList.get().isLoaded("atmospheric")) {
+            AtmosphericCompat.init(modEventBus);
+        }
     }
 }

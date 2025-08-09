@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "justagreenhouse:dragon_roots_bag"
+        }
+    ],
+    "result": {
+        "item": "atmospheric:dragon_roots",
+        "count": 9
+    }
+}

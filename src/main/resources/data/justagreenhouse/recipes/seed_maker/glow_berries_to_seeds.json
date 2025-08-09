@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "minecraft:glow_berries"
+  },
+  "result": "justagreenhouse:glow_berries_pips_bag",
+  "count": 1
+}

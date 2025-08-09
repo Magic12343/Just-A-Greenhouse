@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "minecraft:sweet_berries"
+  },
+  "result": "justagreenhouse:sweet_berries_pips_bag",
+  "count": 1
+}

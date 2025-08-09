@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "atmospheric:aloe_leaves"
+  },
+  "result": "justagreenhouse:aloe_kernels_bag",
+  "count": 1
+}

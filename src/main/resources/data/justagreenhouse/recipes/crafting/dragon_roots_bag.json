@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "atmospheric:dragon_roots"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:dragon_roots_bag",
+        "count": 1
+    }
+}

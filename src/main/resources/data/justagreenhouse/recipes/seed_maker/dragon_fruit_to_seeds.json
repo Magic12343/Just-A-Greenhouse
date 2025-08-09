@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "atmospheric:dragon_fruit"
+  },
+  "result": "justagreenhouse:dragon_roots_bag",
+  "count": 1
+}
