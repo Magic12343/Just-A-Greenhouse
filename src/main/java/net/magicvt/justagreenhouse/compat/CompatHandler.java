@@ -16,5 +16,9 @@ public class CompatHandler {
         if (ModList.get().isLoaded("atmospheric")) {
             AtmosphericCompat.init(modEventBus);
         }
+
+        if (ModList.get().isLoaded("neapolitan")) {
+            NeapolitanCompat.init(modEventBus);
+        }
     }
 }

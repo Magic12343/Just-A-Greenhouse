@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "justagreenhouse:strawberry_pips_bag"
+        }
+    ],
+    "result": {
+        "item": "neapolitan:strawberry_pips",
+        "count": 9
+    }
+}

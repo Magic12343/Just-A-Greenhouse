@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "justagreenhouse:mint_sprouts_bag"
+        }
+    ],
+    "result": {
+        "item": "neapolitan:mint_sprout",
+        "count": 9
+    }
+}

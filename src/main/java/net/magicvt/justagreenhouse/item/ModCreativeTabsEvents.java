@@ -4,6 +4,7 @@ import net.magicvt.justagreenhouse.JustAGreenhouse;
 import net.magicvt.justagreenhouse.compat.ATCompatBlocks;
 import net.magicvt.justagreenhouse.compat.BGCompatBlocks;
 import net.magicvt.justagreenhouse.compat.FDCompatBlocks;
+import net.magicvt.justagreenhouse.compat.NTCompatBlocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -45,6 +46,16 @@ public class ModCreativeTabsEvents {
                 }
                 if (ATCompatBlocks.PASSIONFRUIT_VINE_BAG.isPresent()) {
                     event.accept(ATCompatBlocks.PASSIONFRUIT_VINE_BAG_ITEM.get());
+                }
+
+            }
+
+            if (ModList.get().isLoaded("neapolitan")) {
+                if (NTCompatBlocks.STRAWBERRY_PIPS_BAG.isPresent()) {
+                    event.accept(NTCompatBlocks.STRAWBERRY_PIPS_BAG_ITEM.get());
+                }
+                if (NTCompatBlocks.MINT_SPROUTS_BAG.isPresent()) {
+                    event.accept(NTCompatBlocks.MINT_SPROUTS_BAG_ITEM.get());
                 }
 
             }

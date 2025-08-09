@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "neapolitan:mint_leaves"
+  },
+  "result": "justagreenhouse:mint_sprouts_bag",
+  "count": 1
+}
