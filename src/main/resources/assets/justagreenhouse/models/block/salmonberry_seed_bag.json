@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "justagreenhouse:block/bag_summer_bottom",
+    "side": "justagreenhouse:block/bag_summer_side",
+    "top": "justagreenhouse:block/salmonberry_seed_bag_top"
+  }
+}

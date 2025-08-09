@@ -1,10 +1,7 @@
 package net.magicvt.justagreenhouse.item;
 
 import net.magicvt.justagreenhouse.JustAGreenhouse;
-import net.magicvt.justagreenhouse.compat.ATCompatBlocks;
-import net.magicvt.justagreenhouse.compat.BGCompatBlocks;
-import net.magicvt.justagreenhouse.compat.FDCompatBlocks;
-import net.magicvt.justagreenhouse.compat.NTCompatBlocks;
+import net.magicvt.justagreenhouse.compat.*;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -56,6 +53,58 @@ public class ModCreativeTabsEvents {
                 }
                 if (NTCompatBlocks.MINT_SPROUTS_BAG.isPresent()) {
                     event.accept(NTCompatBlocks.MINT_SPROUTS_BAG_ITEM.get());
+                }
+
+            }
+
+            if (ModList.get().isLoaded("ramadandelight")) {
+                if (RDCompatBlocks.PARSLEY_SEED_BAG.isPresent()) {
+                    event.accept(RDCompatBlocks.PARSLEY_SEED_BAG_ITEM.get());
+                }
+
+            }
+
+            if (ModList.get().isLoaded("veggiesdelight")) {
+                if (VDCompatBlocks.BELLPEPPER_SEED_BAG.isPresent()) {
+                    event.accept(VDCompatBlocks.BELLPEPPER_SEED_BAG_ITEM.get());
+                }
+                if (VDCompatBlocks.BROCCOLI_SEED_BAG.isPresent()) {
+                    event.accept(VDCompatBlocks.BROCCOLI_SEED_BAG_ITEM.get());
+                }
+                if (VDCompatBlocks.CAULIFLOWER_SEED_BAG.isPresent()) {
+                    event.accept(VDCompatBlocks.CAULIFLOWER_SEED_BAG_ITEM.get());
+                }
+                if (VDCompatBlocks.GARLIC_SEED_BAG.isPresent()) {
+                    event.accept(VDCompatBlocks.GARLIC_SEED_BAG_ITEM.get());
+                }
+                if (VDCompatBlocks.TURNIP_SEED_BAG.isPresent()) {
+                    event.accept(VDCompatBlocks.TURNIP_SEED_BAG_ITEM.get());
+                }
+                if (VDCompatBlocks.ZUCCHINI_SEED_BAG.isPresent()) {
+                    event.accept(VDCompatBlocks.ZUCCHINI_SEED_BAG_ITEM.get());
+                }
+
+                if (ModList.get().isLoaded("delightful")) {
+                    if (DFCompatBlocks.SALMONBERRY_SEED_BAG.isPresent()) {
+                        event.accept(DFCompatBlocks.SALMONBERRY_SEED_BAG_ITEM.get());
+                    }
+                    if (DFCompatBlocks.CANTALOUPE_SEED_BAG.isPresent()) {
+                        event.accept(DFCompatBlocks.CANTALOUPE_SEED_BAG_ITEM.get());
+                    }
+
+                }
+
+                if (ModList.get().isLoaded("hearthandharvest")) {
+                    if (HHCompatBlocks.COTTON_SEED_BAG.isPresent()) {
+                        event.accept(HHCompatBlocks.COTTON_SEED_BAG_ITEM.get());
+                    }
+                    if (HHCompatBlocks.BLUEBERRY_SEED_BAG.isPresent()) {
+                        event.accept(HHCompatBlocks.BLUEBERRY_SEED_BAG_ITEM.get());
+                    }
+                    if (HHCompatBlocks.RASPBERRY_SEED_BAG.isPresent()) {
+                        event.accept(HHCompatBlocks.RASPBERRY_SEED_BAG_ITEM.get());
+                    }
+
                 }
 
             }

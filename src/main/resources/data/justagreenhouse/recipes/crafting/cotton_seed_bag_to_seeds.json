@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "justagreenhouse:cotton_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "hearthandharvest:cotton_seeds",
+        "count": 9
+    }
+}

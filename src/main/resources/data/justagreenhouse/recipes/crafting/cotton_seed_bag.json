@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "hearthandharvest:cotton_seeds"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:cotton_seed_bag",
+        "count": 1
+    }
+}

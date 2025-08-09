@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "delightful:salmonberry_pips"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:salmonberry_seed_bag",
+        "count": 1
+    }
+}

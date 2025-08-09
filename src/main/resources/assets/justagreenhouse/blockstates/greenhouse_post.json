@@ -1,7 +1,7 @@
 {
   "variants": {
-    "": {
-      "model": "justagreenhouse:block/greenhouse_post"
-    }
+    "axis=x": { "model": "justagreenhouse:block/greenhouse_post", "x": 90, "y": 90 },
+    "axis=y": { "model": "justagreenhouse:block/greenhouse_post" },
+    "axis=z": { "model": "justagreenhouse:block/greenhouse_post", "x": 90 }
   }
 }

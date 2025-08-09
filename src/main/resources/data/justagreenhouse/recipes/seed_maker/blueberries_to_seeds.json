@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "hearthandharvest:blueberries"
+  },
+  "result": "justagreenhouse:blueberry_seed_bag",
+  "count": 1
+}

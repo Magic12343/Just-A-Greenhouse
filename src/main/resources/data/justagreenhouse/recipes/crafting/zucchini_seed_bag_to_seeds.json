@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "justagreenhouse:zucchini_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "veggiesdelight:zucchini_seeds",
+        "count": 9
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "justagreenhouse:raspberry_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "hearthandharvest:raspberry_pips",
+        "count": 9
+    }
+}

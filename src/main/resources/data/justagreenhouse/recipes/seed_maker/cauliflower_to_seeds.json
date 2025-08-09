@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "veggiesdelight:cauliflower"
+  },
+  "result": "justagreenhouse:cauliflower_seed_bag",
+  "count": 1
+}

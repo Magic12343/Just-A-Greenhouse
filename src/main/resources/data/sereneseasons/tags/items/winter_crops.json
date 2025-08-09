@@ -2,6 +2,8 @@
 	"replace": false,
 	"values": [
 		"justagreenhouse:cabbage_seed_bag",
-		"justagreenhouse:sweet_berries_pips_bag"
+		"justagreenhouse:sweet_berries_pips_bag",
+		"justagreenhouse:cauliflower_seed_bag",
+		"justagreenhouse:turnip_seed_bag"
 	]
 }

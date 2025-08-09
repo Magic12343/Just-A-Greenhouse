@@ -32,14 +32,28 @@ public class SeedMakerBlock extends Block implements EntityBlock {
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
     public static final BooleanProperty LIT = BooleanProperty.create("lit");
 
-    private static final VoxelShape SHAPE_NORTH = Block.box(0.0, 0.0, 0.0, 16.0, 8.0, 16.0);
-    private static final VoxelShape SHAPE_SOUTH = Block.box(0.0, 0.0, 0.0, 16.0, 8.0, 16.0);
-    private static final VoxelShape SHAPE_EAST  = Block.box(0.0, 0.0, 0.0, 16.0, 8.0, 16.0);
-    private static final VoxelShape SHAPE_WEST  = Block.box(0.0, 0.0, 0.0, 16.0, 8.0, 16.0);
+    private static final VoxelShape SHAPE_NORTH = Shapes.or(
+            Block.box(0.0, 0.0, 0.0, 16.0, 8.0, 16.0),
+            Block.box(0.0, 8.0, 8.0, 16.0, 16.0, 16.0)
+    );
+    private static final VoxelShape SHAPE_SOUTH = Shapes.or(
+            Block.box(0.0, 0.0, 0.0, 16.0, 8.0, 16.0),
+            Block.box(0.0, 8.0, 0.0, 16.0, 16.0, 8.0)
+    );
+    private static final VoxelShape SHAPE_EAST = Shapes.or(
+            Block.box(0.0, 0.0, 0.0, 16.0, 8.0, 16.0),
+            Block.box(0.0, 8.0, 0.0, 8.0, 16.0, 16.0)
+    );
+    private static final VoxelShape SHAPE_WEST = Shapes.or(
+            Block.box(8.0, 8.0, 0.0, 16.0, 16.0, 16.0),
+            Block.box(0.0, 0.0, 0.0, 16.0, 8.0, 16.0)
+    );
 
     public SeedMakerBlock() {
-        super(Properties.copy(Blocks.CRAFTING_TABLE)
-                .sound(SoundType.LANTERN));
+        super(Properties.copy(Blocks.OAK_PLANKS)
+                .sound(SoundType.LANTERN)
+                .noOcclusion());
+
         this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, Direction.NORTH)
                 .setValue(LIT, false));

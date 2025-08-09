@@ -1,6 +1,7 @@
 package net.magicvt.justagreenhouse.block;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.FenceBlock;
 import net.minecraft.world.level.block.state.BlockState;
@@ -16,5 +17,10 @@ public class FakeFence extends FenceBlock {
     @Override
     public VoxelShape getCollisionShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
         return Shapes.empty();
+    }
+
+    @Override
+    public boolean connectsTo(BlockState state, boolean isSideSolid, Direction direction) {
+        return false;
     }
 }

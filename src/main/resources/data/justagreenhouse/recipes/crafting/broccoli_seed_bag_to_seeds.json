@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "justagreenhouse:broccoli_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "veggiesdelight:broccoli_seeds",
+        "count": 9
+    }
+}

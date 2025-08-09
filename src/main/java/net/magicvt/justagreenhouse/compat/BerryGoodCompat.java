@@ -1,6 +1,5 @@
 package net.magicvt.justagreenhouse.compat;
 
-import net.magicvt.justagreenhouse.compat.FDCompatBlocks;
 import net.minecraftforge.eventbus.api.IEventBus;
 
 public class BerryGoodCompat {

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "veggiesdelight:turnip_seeds"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:turnip_seed_bag",
+        "count": 1
+    }
+}

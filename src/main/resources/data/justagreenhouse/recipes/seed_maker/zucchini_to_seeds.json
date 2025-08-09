@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "veggiesdelight:zucchini"
+  },
+  "result": "justagreenhouse:zucchini_seed_bag",
+  "count": 1
+}

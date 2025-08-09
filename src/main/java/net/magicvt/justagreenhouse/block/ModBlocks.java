@@ -50,7 +50,7 @@ public class ModBlocks {
             () -> new LanternBlock(BlockBehaviour.Properties.copy(Blocks.LANTERN).sound(SoundType.LANTERN).strength(1.0f, 3.0f)));
 
     public static final RegistryObject<Block> GREENHOUSE_POST = registerBlock("greenhouse_post",
-            () -> new FakeFence(BlockBehaviour.Properties.copy(Blocks.TORCH).sound(SoundType.LANTERN).noCollission()));
+            () -> new PostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE).sound(SoundType.LANTERN).noCollission()));
 
     public static final RegistryObject<Block> FLOOR_LANTERN = registerBlock("floor_lantern",
             () -> new FakeFence(BlockBehaviour.Properties.copy(Blocks.TORCH).sound(SoundType.LANTERN).noCollission()));

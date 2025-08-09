@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "ramadandelight:parsley_seeds"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:parsley_seed_bag",
+        "count": 1
+    }
+}

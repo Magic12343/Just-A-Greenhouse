@@ -20,5 +20,22 @@ public class CompatHandler {
         if (ModList.get().isLoaded("neapolitan")) {
             NeapolitanCompat.init(modEventBus);
         }
+
+        if (ModList.get().isLoaded("ramadandelight")) {
+            RamadanDelightCompat.init(modEventBus);
+        }
+
+        if (ModList.get().isLoaded("veggiesdelight")) {
+            VeggiesDelightCompat.init(modEventBus);
+        }
+
+        if (ModList.get().isLoaded("delightful")) {
+            DelightfulCompat.init(modEventBus);
+        }
+
+        if (ModList.get().isLoaded("hearthandharvest")) {
+            HearthAndHarvestCompat.init(modEventBus);
+        }
+
     }
 }

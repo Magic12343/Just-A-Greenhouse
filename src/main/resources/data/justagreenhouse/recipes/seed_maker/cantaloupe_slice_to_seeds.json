@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "delightful:cantaloupe_slice"
+  },
+  "result": "delightful:cantaloupe_seeds",
+  "count": 2
+}

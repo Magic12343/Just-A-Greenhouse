@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "justagreenhouse:turnip_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "veggiesdelight:turnip_seeds",
+        "count": 9
+    }
+}

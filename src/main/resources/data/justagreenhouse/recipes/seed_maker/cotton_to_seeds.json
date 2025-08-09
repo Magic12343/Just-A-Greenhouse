@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "hearthandharvest:cotton"
+  },
+  "result": "justagreenhouse:cotton_seed_bag",
+  "count": 1
+}

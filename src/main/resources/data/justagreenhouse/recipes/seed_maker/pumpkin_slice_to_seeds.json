@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "farmersdelight:pumpkin_slice"
+  },
+  "result": "minecraft:pumpkin_seeds",
+  "count": 2
+}

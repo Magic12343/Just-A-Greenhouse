@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "justagreenhouse:cantaloupe_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "delightful:cantaloupe_seeds",
+        "count": 9
+    }
+}

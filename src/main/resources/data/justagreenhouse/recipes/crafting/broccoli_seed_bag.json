@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "veggiesdelight:broccoli_seeds"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:broccoli_seed_bag",
+        "count": 1
+    }
+}
