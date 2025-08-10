@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "collectorsreap:pomegranate"
+  },
+  "result": "justagreenhouse:pomegranate_seed_bag",
+  "count": 1
+}

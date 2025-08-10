@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "collectorsreap:lime"
+  },
+  "result": "justagreenhouse:lime_seed_bag",
+  "count": 1
+}

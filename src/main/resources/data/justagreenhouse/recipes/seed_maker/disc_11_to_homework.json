@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "minecraft:music_disc_11"
+  },
+  "result": "justagreenhouse:homework_music_disc",
+  "count": 1
+}

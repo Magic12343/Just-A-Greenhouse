@@ -14,7 +14,7 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, JustAGreenhouse.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("greenhouse_tab",
+    public static final RegistryObject<CreativeModeTab> GREENHOUSE_TAB = CREATIVE_MODE_TABS.register("greenhouse_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.GREENHOUSE_GLASS.get()))
                     .title(Component.translatable("creativetab.greenhouse_tab"))
                     .displayItems((pParameters, pOutput) -> {
@@ -29,6 +29,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.GREENHOUSE_POST.get());
                         pOutput.accept(ModBlocks.FLOOR_LANTERN.get());
                         pOutput.accept(ModBlocks.SEED_MAKER.get());
+                        pOutput.accept(ModItems.HOMEWORK.get());
+
                         pOutput.accept(ModBlocks.WHEAT_SEED_BAG.get());
                         pOutput.accept(ModBlocks.MELON_SEED_BAG.get());
                         pOutput.accept(ModBlocks.TORCHFLOWER_SEED_BAG.get());

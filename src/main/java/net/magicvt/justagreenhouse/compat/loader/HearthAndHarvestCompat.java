@@ -1,5 +1,6 @@
-package net.magicvt.justagreenhouse.compat;
+package net.magicvt.justagreenhouse.compat.loader;
 
+import net.magicvt.justagreenhouse.compat.registry.HHCompatBlocks;
 import net.minecraftforge.eventbus.api.IEventBus;
 
 public class HearthAndHarvestCompat {

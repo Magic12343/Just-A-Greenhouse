@@ -7,6 +7,7 @@ import net.magicvt.justagreenhouse.compat.CompatHandler;
 import net.magicvt.justagreenhouse.item.ModCreativeModTabs;
 import net.magicvt.justagreenhouse.item.ModItems;
 import net.magicvt.justagreenhouse.recipe.ModRecipes;
+import net.magicvt.justagreenhouse.sounds.ModSounds;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -32,6 +33,7 @@ public class JustAGreenhouse {
         ModBlocks.register(modEventBus);
         ModRecipes.register();
         ModBlockEntities.register();
+        ModSounds.register(modEventBus);
 
 
         // Compat

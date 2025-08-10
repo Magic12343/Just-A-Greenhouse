@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "justagreenhouse:lime_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "collectorsreap:lime_seeds",
+        "count": 9
+    }
+}

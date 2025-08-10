@@ -1,4 +1,4 @@
-package net.magicvt.justagreenhouse.compat;
+package net.magicvt.justagreenhouse.compat.registry;
 
 import net.magicvt.justagreenhouse.JustAGreenhouse;
 import net.minecraft.world.item.BlockItem;

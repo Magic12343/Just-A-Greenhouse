@@ -5,12 +5,15 @@
   "block.justagreenhouse.greenhouse_block": "Greenhouse Block",
   "block.justagreenhouse.greenhouse_stairs": "Greenhouse Stairs",
   "block.justagreenhouse.greenhouse_slab": "Greenhouse Slab",
-  "item.justagreenhouse.greenhouse_iron_ingot": "Greenhouse Iron Ingot",
   "block.justagreenhouse.greenhouse_door": "Greenhouse Door",
   "block.justagreenhouse.greenhouse_lantern": "Greenhouse Lantern",
   "block.justagreenhouse.greenhouse_post": "Greenhouse Post",
   "block.justagreenhouse.floor_lantern": "Greenhouse Lamp",
   "block.justagreenhouse.seed_maker": "Seed Maker",
+
+  "item.justagreenhouse.greenhouse_iron_ingot": "Greenhouse Iron Ingot",
+  "item.justagreenhouse.homework_music_disc": "Music Disc",
+  "item.justagreenhouse.homework_music_disc.desc": "FabienC - homework",
 
   "block.justagreenhouse.wheat_seed_bag": "Wheat Seed Bag",
   "block.justagreenhouse.melon_seed_bag": "Melon Seed Bag",
@@ -40,6 +43,10 @@
   "block.justagreenhouse.cotton_seed_bag": "Cotton Seed Bag",
   "block.justagreenhouse.blueberry_seed_bag": "Blueberry Pips Bag",
   "block.justagreenhouse.raspberry_seed_bag": "Raspberry Pips Bag",
+  "block.justagreenhouse.pomegranate_seed_bag": "Pomegranate Seed Bag",
+  "block.justagreenhouse.lime_seed_bag": "Lime Seed Bag",
+  "block.justagreenhouse.tea_seed_bag": "Tea Seed Bag",
+
 
 
   "creativetab.greenhouse_tab": "Just A Greenhouse"

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "justagreenhouse:block/wheat_seeds_bag_bottom",
+    "side": "justagreenhouse:block/wheat_seeds_bag_side",
+    "top": "justagreenhouse:block/pomegranate_seed_bag_top"
+  }
+}

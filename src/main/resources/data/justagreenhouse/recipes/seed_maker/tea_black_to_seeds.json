@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "farmersrespite:black_tea_leaves"
+  },
+  "result": "farmersrespite:tea_seeds",
+  "count": 3
+}

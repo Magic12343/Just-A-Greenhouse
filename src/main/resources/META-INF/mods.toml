@@ -17,7 +17,7 @@ license="MIT"
 # The modid of the mod
 modId="justagreenhouse" #mandatory
 # The version number of the mod
-version="1.1.0" #mandatory
+version="1.1.1" #mandatory
 # A display name for the mod
 displayName="Just A Greenhouse" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
@@ -27,7 +27,7 @@ displayName="Just A Greenhouse" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="logo.png"
 # A text field displayed in the mod UI
-#credits="" #optional
+credits="Music - FabienC@RustedMusicStudio"
 # A text field displayed in the mod UI
 authors="MagicVT" #optional
 
@@ -44,14 +44,20 @@ authors="MagicVT" #optional
 description='''An expansion to Serene Seasons that adds a block that uses the Greenhouse Mechanics and more.
 
 Changelog:
+
+1.1.0:
 -More Decorative Blocks for your greenhouses.
 -New Seed Bags Blocks for decoration (They are compatible with Farmers Delight!!).
 -New Greenhouse Blocks Recipes (Now they are logic and a little bit more expensive)
 -New Block: The Seed Maker, you can grind all the seedable crops to make even more seeds, no GUIs, simple to understand!
--New Language: Español Argentina!'''
+-New Language: Español Argentina!
 
-name = "Special Thanks: Kaupenjoe"
-role = "For some of the mod tutorials i used!"
+1.1.1:
+-Added Compat to: Berry Good, Neapolitan, Atmospheric, Ramadan Delight, Veggies Delight, Hearth and Harvest, Delightful, Collectors Reap and Farmers Respite.
+-Greenhouse Post can now be placed horizontally.
+-Changed Seed Maker hitbox to be more accurate.
+-Added a Secret Music Disc, a clue: Find the broken one and bring it alive.
+'''
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.justagreenhouse]] #optional

@@ -1,5 +1,6 @@
 package net.magicvt.justagreenhouse.compat;
 
+import net.magicvt.justagreenhouse.compat.loader.*;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.eventbus.api.IEventBus;
 
@@ -35,6 +36,14 @@ public class CompatHandler {
 
         if (ModList.get().isLoaded("hearthandharvest")) {
             HearthAndHarvestCompat.init(modEventBus);
+        }
+
+        if (ModList.get().isLoaded("collectorsreap")) {
+            CollectorsReapCompat.init(modEventBus);
+        }
+
+        if (ModList.get().isLoaded("farmersrespite")) {
+            FarmersRespiteCompat.init(modEventBus);
         }
 
     }
