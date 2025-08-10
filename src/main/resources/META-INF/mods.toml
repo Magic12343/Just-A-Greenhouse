@@ -17,7 +17,7 @@ license="MIT"
 # The modid of the mod
 modId="justagreenhouse" #mandatory
 # The version number of the mod
-version="1.1.1" #mandatory
+version="1.1.2" #mandatory
 # A display name for the mod
 displayName="Just A Greenhouse" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
@@ -57,6 +57,9 @@ Changelog:
 -Greenhouse Post can now be placed horizontally.
 -Changed Seed Maker hitbox to be more accurate.
 -Added a Secret Music Disc, a clue: Find the broken one and bring it alive.
+
+1.1.2:
+-Lootables fix.
 '''
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
