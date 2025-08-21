@@ -1,0 +1,53 @@
+{
+
+  "block.justagreenhouse.greenhouse_glass": "Cristal de invernadero",
+  "block.justagreenhouse.greenhouse_pillar": "Pilar de invernadero",
+  "block.justagreenhouse.greenhouse_block": "Bloque de invernadero",
+  "block.justagreenhouse.greenhouse_stairs": "Escaleras de invernadero",
+  "block.justagreenhouse.greenhouse_slab": "Losa de invernadero",
+  "block.justagreenhouse.greenhouse_door": "Puerta de invernadero",
+  "block.justagreenhouse.greenhouse_lantern": "Linterna de invernadero",
+  "block.justagreenhouse.greenhouse_post": "Poste de invernadero",
+  "block.justagreenhouse.floor_lantern": "Lámpara de invernadero",
+  "block.justagreenhouse.seed_maker": "Creador de semillas",
+
+  "item.justagreenhouse.greenhouse_iron_ingot": "Lingote de hierro de invernadero",
+  "item.justagreenhouse.homework_music_disc": "Disco de música",
+  "item.justagreenhouse.homework_music_disc.desc": "FabienC - homework",
+
+  "block.justagreenhouse.wheat_seed_bag": "Bolsa de semillas de trigo",
+  "block.justagreenhouse.melon_seed_bag": "Bolsa de semillas de melón",
+  "block.justagreenhouse.beetroot_seed_bag": "Bolsa de semillas de remolacha",
+  "block.justagreenhouse.pumpkin_seed_bag": "Bolsa de semillas de calabaza",
+  "block.justagreenhouse.torchflower_seed_bag": "Bolsa de semillas de plantorcha",
+  "block.justagreenhouse.pitcher_pod_bag": "Bolsa de semillas de planta orde",
+
+  "block.justagreenhouse.tomato_seed_bag": "Bolsa de semillas de tomate",
+  "block.justagreenhouse.cabbage_seed_bag": "Bolsa de semillas de lechuga",
+  "block.justagreenhouse.sweet_berries_pips_bag": "Bolsa de pepitas de bayas dulces",
+  "block.justagreenhouse.glow_berries_pips_bag": "Bolsa de pepitas de bayas luminosas",
+  "block.justagreenhouse.aloe_kernels_bag": "Bolsa de núcleo de aloe",
+  "block.justagreenhouse.dragon_roots_bag": "Bolsa de raíz de dragón",
+  "block.justagreenhouse.passionfruit_vine_bag": "Bolsa de enredaderas de fruta de la pasión",
+  "block.justagreenhouse.strawberry_pips_bag": "Bolsa de pepitas de fresa",
+  "block.justagreenhouse.mint_sprouts_bag": "Bolsa de brotes de menta",
+  "block.justagreenhouse.parsley_seed_bag": "Bolsa de semillas de perejil",
+  "block.justagreenhouse.bellpepper_seed_bag": "Bolsa de semillas de pimiento",
+  "block.justagreenhouse.broccoli_seed_bag": "Bolsa de semillas de brocolí",
+  "block.justagreenhouse.cauliflower_seed_bag": "Bolsa de semillas de coliflor",
+  "block.justagreenhouse.garlic_seed_bag": "Bolsa de dientes de ajo",
+  "block.justagreenhouse.turnip_seed_bag": "Bolsa de semillas de remolacha",
+  "block.justagreenhouse.zucchini_seed_bag": "Bolsa de semillas de calabación",
+  "block.justagreenhouse.salmonberry_seed_bag": "Bolsa de pepitas de bayas de salmón",
+  "block.justagreenhouse.cantaloupe_seed_bag": "Bolsa de semillas de cantalupo",
+  "block.justagreenhouse.cotton_seed_bag": "Bolsa de semillas de algodón",
+  "block.justagreenhouse.blueberry_seed_bag": "Bolsa de pepitas de arándanos",
+  "block.justagreenhouse.raspberry_seed_bag": "Bolsa de pepitas de frambuesa",
+  "block.justagreenhouse.pomegranate_seed_bag": "Bolsa de semillas de granada",
+  "block.justagreenhouse.lime_seed_bag": "Bolsa de semillas de lima",
+  "block.justagreenhouse.tea_seed_bag": "Bolsa de semillas de té",
+
+
+
+  "creativetab.greenhouse_tab": "Just A Greenhouse"
+}
