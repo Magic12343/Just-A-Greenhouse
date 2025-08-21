@@ -27,8 +27,11 @@ displayName="Just A Greenhouse" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="logo.png"
 # A text field displayed in the mod UI
-credits="Music: FabienC@RustedMusicStudio"
-credits="Translations: es_es - kukiuvu"
+credits="""
+
+Music: FabienC@RustedMusicStudio
+Translations: es_es - kukiuvu
+"""
 # A text field displayed in the mod UI
 authors="MagicVT" #optional
 
@@ -63,7 +66,7 @@ Changelog:
 -Lootables fix.
 
 1.1.3:
--Nueva Traducción a Español de España.
+-Nueva Traducción a Español de España por kukiuvu.
 
 '''
 
