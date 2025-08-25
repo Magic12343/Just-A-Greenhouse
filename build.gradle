@@ -145,15 +145,20 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    // Put repositories for dependencies here
-    // ForgeGradle automatically adds the Forge maven and Maven Central for you
+    mavenCentral()
 
-    // If you have mod jar dependencies in ./libs, you can declare them as a repository like so.
-    // See https://docs.gradle.org/current/userguide/declaring_repositories.html#sub:flat_dir_resolver
-    // flatDir {
-    //     dir 'libs'
-    // }
-}
+    maven {
+        name = "Forge"
+        url = "https://maven.minecraftforge.net/"
+    }
+
+    maven {
+        name = "CurseMaven"
+        url = "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
 
 dependencies {
     // Specify the version of Minecraft to use.
@@ -169,8 +174,26 @@ dependencies {
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}")
     // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}")
 
-    runtimeOnly fg.deobf("curse.maven:farmers-delight-398521:4956515")
-    compileOnly fg.deobf("curse.maven:farmers-delight-398521:4956515")
+    runtimeOnly fg.deobf("curse.maven:farmers-delight-398521:6597298")
+    compileOnly fg.deobf("curse.maven:farmers-delight-398521:6597298")
+    runtimeOnly fg.deobf("curse.maven:berry-good-355589:5228437")
+    compileOnly fg.deobf("curse.maven:berry-good-355589:5228437")
+    runtimeOnly fg.deobf("curse.maven:atmospheric-362393:6393127")
+    compileOnly fg.deobf("curse.maven:atmospheric-362393:6393127")
+    runtimeOnly fg.deobf("curse.maven:neapolitan-382016:6248885")
+    compileOnly fg.deobf("curse.maven:neapolitan-382016:6248885")
+    runtimeOnly fg.deobf("curse.maven:ramadan-delight-1193532:6739406")
+    compileOnly fg.deobf("curse.maven:ramadan-delight-1193532:6739406")
+    runtimeOnly fg.deobf("curse.maven:veggies-delight-1082807:6859947")
+    compileOnly fg.deobf("curse.maven:veggies-delight-1082807:6859947")
+    runtimeOnly fg.deobf("curse.maven:delightful-637529:6795369")
+    compileOnly fg.deobf("curse.maven:delightful-637529:6795369")
+    runtimeOnly fg.deobf("curse.maven:hearth-and-harvest-1212197:6829917")
+    compileOnly fg.deobf("curse.maven:hearth-and-harvest-1212197:6829917")
+    runtimeOnly fg.deobf("curse.maven:collectors-reap-807101:6249047")
+    compileOnly fg.deobf("curse.maven:collectors-reap-807101:6249047")
+    runtimeOnly fg.deobf("curse.maven:farmers-respite-551453:5543547")
+    compileOnly fg.deobf("curse.maven:farmers-respite-551453:5543547")
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
@@ -240,4 +263,5 @@ publishing {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
 }
