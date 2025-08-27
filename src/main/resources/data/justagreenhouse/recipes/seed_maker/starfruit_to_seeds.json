@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "extravagantdelight:starfruit"
+  },
+  "result": "justagreenhouse:starfruit_seed_bag",
+  "count": 1
+}

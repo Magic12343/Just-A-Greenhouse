@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "extravagantdelight:sloe_berries"
+  },
+  "result": "justagreenhouse:sloe_berry_seed_bag",
+  "count": 1
+}

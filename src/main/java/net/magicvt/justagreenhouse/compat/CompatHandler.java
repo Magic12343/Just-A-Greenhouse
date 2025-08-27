@@ -46,5 +46,9 @@ public class CompatHandler {
             FarmersRespiteCompat.init(modEventBus);
         }
 
+        if (ModList.get().isLoaded("extravagantdelight")) {
+            ExtravagantDelightCompat.init(modEventBus);
+        }
+
     }
 }

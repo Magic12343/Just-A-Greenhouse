@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "extravagantdelight:sloe_berry_pips"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:sloe_berry_seed_bag",
+        "count": 1
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "justagreenhouse:starfruit_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "extravagantdelight:starfruit_seeds",
+        "count": 9
+    }
+}

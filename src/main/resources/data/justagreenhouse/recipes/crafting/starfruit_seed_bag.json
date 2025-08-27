@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "extravagantdelight:starfruit_seeds"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:starfruit_seed_bag",
+        "count": 1
+    }
+}

@@ -72,8 +72,6 @@ public class ModCreativeModTabs {
                         }
                         if (ModList.get().isLoaded("delightful")) {
                             DFCompatBlocks.SALMONBERRY_SEED_BAG_ITEM.ifPresent(pOutput::accept);
-                        }
-                        if (ModList.get().isLoaded("delightful")) {
                             DFCompatBlocks.CANTALOUPE_SEED_BAG_ITEM.ifPresent(pOutput::accept);
                         }
 
@@ -96,6 +94,9 @@ public class ModCreativeModTabs {
                         }
                         if (ModList.get().isLoaded("veggiesdelight")) {
                             VDCompatBlocks.CAULIFLOWER_SEED_BAG_ITEM.ifPresent(pOutput::accept);
+                        }
+                        if (ModList.get().isLoaded("extravagantdelight")) {
+                            EDCompatBlocks.SLOE_BERRY_SEED_BAG_ITEM.ifPresent(pOutput::accept);
                         }
 
                         //WINTER
@@ -133,6 +134,9 @@ public class ModCreativeModTabs {
                         }
                         if (ModList.get().isLoaded("farmersrespite")) {
                             FRCompatBlocks.TEA_SEED_BAG_ITEM.ifPresent(pOutput::accept);
+                        }
+                        if (ModList.get().isLoaded("extravagantdelight")) {
+                            EDCompatBlocks.STARFRUIT_SEED_BAG_ITEM.ifPresent(pOutput::accept);
                         }
 
                     })

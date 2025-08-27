@@ -1,0 +1,8 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "ingredient": {
+    "item": "extravagantdelight:quince"
+  },
+  "result": "extravagantdelight:quince_seedling",
+  "count": 1
+}

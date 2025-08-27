@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "justagreenhouse:sloe_berry_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "extravagantdelight:sloe_berry_pips",
+        "count": 9
+    }
+}
