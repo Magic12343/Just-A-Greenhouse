@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "justagreenhouse:block/red_greenhouse_block",
+    "side": "justagreenhouse:block/red_greenhouse_block",
+    "top": "justagreenhouse:block/red_greenhouse_block"
+  }
+}

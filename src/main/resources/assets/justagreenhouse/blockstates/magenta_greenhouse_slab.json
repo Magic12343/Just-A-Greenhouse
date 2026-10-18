@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "justagreenhouse:block/magenta_greenhouse_slab"
+    },
+    "type=double": {
+      "model": "justagreenhouse:block/magenta_greenhouse_block"
+    },
+    "type=top": {
+      "model": "justagreenhouse:block/magenta_greenhouse_slab_top"
+    }
+  }
+}

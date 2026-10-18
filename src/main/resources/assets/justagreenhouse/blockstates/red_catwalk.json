@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "shape=straight,facing=north": { "model": "justagreenhouse:block/red_catwalk" },
+    "shape=straight,facing=south": { "model": "justagreenhouse:block/red_catwalk", "y": 180 },
+    "shape=straight,facing=west":  { "model": "justagreenhouse:block/red_catwalk", "y": 270 },
+    "shape=straight,facing=east":  { "model": "justagreenhouse:block/red_catwalk", "y": 90 },
+
+    "shape=curve,facing=north": { "model": "justagreenhouse:block/red_catwalk_curve", "y": 180  },
+    "shape=curve,facing=south": { "model": "justagreenhouse:block/red_catwalk_curve", "y": 0 },
+    "shape=curve,facing=west":  { "model": "justagreenhouse:block/red_catwalk_curve", "y": 90 },
+    "shape=curve,facing=east":  { "model": "justagreenhouse:block/red_catwalk_curve", "y": 270 },
+
+    "shape=t,facing=north": { "model": "justagreenhouse:block/red_catwalk_t", "y": 180  },
+    "shape=t,facing=south": { "model": "justagreenhouse:block/red_catwalk_t", "y": 0 },
+    "shape=t,facing=west":  { "model": "justagreenhouse:block/red_catwalk_t", "y": 90 },
+    "shape=t,facing=east":  { "model": "justagreenhouse:block/red_catwalk_t", "y": 270 },
+
+    "shape=cross,facing=north": { "model": "justagreenhouse:block/red_catwalk_cross" },
+    "shape=cross,facing=south": { "model": "justagreenhouse:block/red_catwalk_cross", "y": 180 },
+    "shape=cross,facing=west":  { "model": "justagreenhouse:block/red_catwalk_cross", "y": 270 },
+    "shape=cross,facing=east":  { "model": "justagreenhouse:block/red_catwalk_cross", "y": 90 }
+  }
+}

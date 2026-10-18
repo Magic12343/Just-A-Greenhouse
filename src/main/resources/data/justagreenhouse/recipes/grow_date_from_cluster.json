@@ -1,0 +1,12 @@
+{
+  "type": "justagreenhouse:seedling_grower",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ramadandelight"
+    }
+  ],
+  "inputA": { "item": "ramadandelight:cluster_of_dates" },
+  "inputB": { "item": "minecraft:bone_meal" },
+  "output": { "item": "ramadandelight:palm_sapling", "count": 5 }
+}

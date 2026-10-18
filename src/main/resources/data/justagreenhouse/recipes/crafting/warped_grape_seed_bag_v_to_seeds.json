@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "nethervinery"
+    }
+  ],
+    "ingredients": [
+        {
+            "item": "justagreenhouse:warped_grape_seed_bag_v"
+        }
+    ],
+    "result": {
+        "item": "nethervinery:warped_grape_seeds",
+        "count": 9
+    }
+}

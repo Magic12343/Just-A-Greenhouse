@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "justagreenhouse:block/orange_greenhouse_door_bottom",
+    "top": "justagreenhouse:block/orange_greenhouse_door_top"
+  }
+}

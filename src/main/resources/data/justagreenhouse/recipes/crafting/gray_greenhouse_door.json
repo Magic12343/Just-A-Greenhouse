@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "__",
+        "__",
+        "__"
+    ],
+    "key": {
+        "_": {
+            "item": "justagreenhouse:gray_greenhouse_glass"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:gray_greenhouse_door",
+        "count": 3
+    }
+}

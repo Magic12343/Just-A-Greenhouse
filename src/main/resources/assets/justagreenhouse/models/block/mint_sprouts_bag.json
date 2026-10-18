@@ -1,8 +1,12 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "block/cube",
   "textures": {
-    "bottom": "justagreenhouse:block/anual_bag_bottom",
-    "side": "justagreenhouse:block/anual_bag_side",
-    "top": "justagreenhouse:block/mint_sprouts_bag_top"
+    "particle": "neapolitan:item/mint_sprout",
+    "north": "justagreenhouse:block/neapolitan/mint_seed_bag_front",
+    "south": "justagreenhouse:block/anual_bag_side",
+    "east":  "justagreenhouse:block/anual_bag_side",
+    "west":  "justagreenhouse:block/anual_bag_side",
+    "up":    "justagreenhouse:block/neapolitan/mint_sprouts_bag_top",
+    "down":  "justagreenhouse:block/anual_bag_bottom"
   }
 }

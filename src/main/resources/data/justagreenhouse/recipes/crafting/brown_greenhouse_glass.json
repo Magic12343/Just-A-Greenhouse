@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iGi",
+        "iii"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:brown_dye"
+        },
+        "i": {
+      "tag": "justagreenhouse:greenhouse_glass"
+              }
+    },
+    "result": {
+        "item": "justagreenhouse:brown_greenhouse_glass",
+        "count": 8
+    }
+}

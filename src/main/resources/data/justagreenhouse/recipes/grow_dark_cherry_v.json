@@ -1,0 +1,12 @@
+{
+  "type": "justagreenhouse:seedling_grower",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vinery"
+    }
+  ],
+  "inputA": { "item": "vinery:cherry" },
+  "inputB": { "item": "minecraft:bone_meal" },
+  "output": { "item": "vinery:dark_cherry_sapling", "count": 2 }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "justagreenhouse:seedling_grower",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fruitsdelight"
+    }
+  ],
+  "inputA": { "item": "fruitsdelight:fig" },
+  "inputB": { "item": "minecraft:bone_meal" },
+  "output": { "item": "fruitsdelight:fig_sapling", "count": 2 }
+}

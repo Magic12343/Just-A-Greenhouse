@@ -49,29 +49,13 @@ description='''An expansion to Serene Seasons that adds a block that uses the Gr
 
 Changelog:
 
-1.1.0:
--More Decorative Blocks for your greenhouses.
--New Seed Bags Blocks for decoration (They are compatible with Farmers Delight!!).
--New Greenhouse Blocks Recipes (Now they are logic and a little bit more expensive)
--New Block: The Seed Maker, you can grind all the seedable crops to make even more seeds, no GUIs, simple to understand!
--New Language: Español Argentina!
-
-1.1.1:
--Added Compat to: Berry Good, Neapolitan, Atmospheric, Ramadan Delight, Veggies Delight, Hearth and Harvest, Delightful, Collectors Reap and Farmers Respite.
--Greenhouse Post can now be placed horizontally.
--Changed Seed Maker hitbox to be more accurate.
--Added a Secret Music Disc, a clue: Find the broken one and bring it alive.
-
-1.1.2:
--Lootables fix.
-
-1.1.3:
--Nueva Traducción a Español de España por kukiuvu.
--Modified Creative Tab items order.
--Removed Serene Seasons tags temporarily (Soon i will implement them well).
-
-1.1.4:
--Added Extravagant Delight Compat
+1.2.0 The Colorful Drop:
+-Added Seedling Maker, a new data-driven recipe block that creates Saplings and Seedlings from Fruit from the trees.
+-Added Compat with a lot of mods, check the file changelog to see all the added Compats or the mod post.
+-Added colored versions of the Greenhouse Blocks.
+-Added Catwalks, a new waterloggeable block to replace  the slabs in your greenhouses, it grants a little bit of speed when you
+walk on them.
+-Reworked Post Block, now it has new interactions when a Floor Lantern is on top and other one when a Pot is below them.
 
 '''
 

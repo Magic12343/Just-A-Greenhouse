@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fruitsdelight"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "fruitsdelight:lemon_seeds"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:lemon_seed_bag",
+        "count": 1
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "supplementaries:item/flax_seeds",
+    "north": "justagreenhouse:block/supplementaries/flax_seed_bag_front",
+    "south": "justagreenhouse:block/bag_spring_side",
+    "east":  "justagreenhouse:block/bag_spring_side",
+    "west":  "justagreenhouse:block/bag_spring_side",
+    "up":    "justagreenhouse:block/supplementaries/flax_seed_bag_top",
+    "down":  "justagreenhouse:block/bag_spring_bottom"
+  }
+}

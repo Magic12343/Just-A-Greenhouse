@@ -1,8 +1,12 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "block/cube",
   "textures": {
-    "bottom": "justagreenhouse:block/bag_summer_bottom",
-    "side": "justagreenhouse:block/bag_summer_side",
-    "top": "justagreenhouse:block/pitcher_pod_bag_top"
+    "particle": "minecraft:item/pitcher_pod",
+    "north": "justagreenhouse:block/pitcher_seed_bag_front",
+    "south": "justagreenhouse:block/bag_summer_side",
+    "east":  "justagreenhouse:block/bag_summer_side",
+    "west":  "justagreenhouse:block/bag_summer_side",
+    "up":    "justagreenhouse:block/pitcher_pod_bag_top",
+    "down":  "justagreenhouse:block/bag_summer_bottom"
   }
 }

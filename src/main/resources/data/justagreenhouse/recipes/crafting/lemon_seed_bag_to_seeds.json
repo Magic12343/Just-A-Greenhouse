@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fruitsdelight"
+    }
+  ],
+    "ingredients": [
+        {
+            "item": "justagreenhouse:lemon_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "fruitsdelight:lemon_seeds",
+        "count": 9
+    }
+}

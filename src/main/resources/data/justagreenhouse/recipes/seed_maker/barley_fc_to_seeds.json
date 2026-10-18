@@ -1,0 +1,14 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farm_and_charm"
+    }
+  ],
+  "ingredient": {
+    "item": "farm_and_charm:barley"
+  },
+  "result": "justagreenhouse:barley_seed_bag_fc",
+  "count": 1
+}

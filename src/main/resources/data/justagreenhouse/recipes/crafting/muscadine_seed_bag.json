@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extravagantdelight"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "extravagantdelight:muscadine_pips"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:muscadine_seed_bag",
+        "count": 1
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#_#"
+    ],
+    "key": {
+        "#": {
+            "item": "justagreenhouse:pink_greenhouse_post"
+        },
+        "_": {
+            "item": "justagreenhouse:pink_greenhouse_slab"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:pink_catwalk",
+        "count": 6
+    }
+}

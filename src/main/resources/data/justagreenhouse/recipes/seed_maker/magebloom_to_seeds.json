@@ -1,0 +1,14 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+  "ingredient": {
+    "item": "ars_nouveau:magebloom"
+  },
+  "result": "justagreenhouse:magebloom_seed_bag",
+  "count": 1
+}

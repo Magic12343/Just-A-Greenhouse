@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "water_state=water_no":  { "model": "justagreenhouse:block/seedling_grower_no_water" },
+    "water_state=water_in":  { "model": "justagreenhouse:block/seedling_grower_water_in" },
+    "water_state=working":   { "model": "justagreenhouse:block/seedling_grower_working" }
+  }
+}

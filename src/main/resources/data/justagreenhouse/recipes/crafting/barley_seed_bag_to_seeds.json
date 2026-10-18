@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extravagantdelight"
+    }
+  ],
+    "ingredients": [
+        {
+            "item": "justagreenhouse:barley_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "extravagantdelight:barley_seeds",
+        "count": 9
+    }
+}

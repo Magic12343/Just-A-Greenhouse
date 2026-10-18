@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "axis=x,floor_true=false,pot_true=false": { "model": "justagreenhouse:block/lime_greenhouse_post", "x": 90, "y": 90 },
+    "axis=y,floor_true=false,pot_true=false": { "model": "justagreenhouse:block/lime_greenhouse_post" },
+    "axis=z,floor_true=false,pot_true=false": { "model": "justagreenhouse:block/lime_greenhouse_post", "x": 90 },
+
+    "axis=x,floor_true=true,pot_true=false": { "model": "justagreenhouse:block/lime_greenhouse_post_floor", "x": 90, "y": 90 },
+    "axis=y,floor_true=true,pot_true=false": { "model": "justagreenhouse:block/lime_greenhouse_post_floor" },
+    "axis=z,floor_true=true,pot_true=false": { "model": "justagreenhouse:block/lime_greenhouse_post_floor", "x": 90 },
+
+    "axis=x,floor_true=false,pot_true=true": { "model": "justagreenhouse:block/lime_greenhouse_post_pot", "x": 90, "y": 90 },
+    "axis=y,floor_true=false,pot_true=true": { "model": "justagreenhouse:block/lime_greenhouse_post_pot" },
+    "axis=z,floor_true=false,pot_true=true": { "model": "justagreenhouse:block/lime_greenhouse_post_pot", "x": 90 }
+  }
+}

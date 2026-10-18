@@ -19,6 +19,14 @@ public class ModBlockEntities {
                     () -> BlockEntityType.Builder.of(SeedMakerBlockEntity::new,
                             ModBlocks.SEED_MAKER.get()).build(null));
 
+    public static final RegistryObject<BlockEntityType<SeedlingGrowerBlockEntity>> SEEDLING_GROWER =
+            BLOCK_ENTITIES.register("seedling_grower",
+                    () -> BlockEntityType.Builder.of(SeedlingGrowerBlockEntity::new,
+                                    ModBlocks.SEEDLING_GROWER.get())
+                            .build(null));
+
+
+
     public static void register() {
         BLOCK_ENTITIES.register(FMLJavaModLoadingContext.get().getModEventBus());
     }

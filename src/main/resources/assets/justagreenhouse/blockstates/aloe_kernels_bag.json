@@ -1,7 +1,8 @@
 {
   "variants": {
-    "": {
-      "model": "justagreenhouse:block/aloe_kernels_bag"
-    }
+    "facing=north": { "model": "justagreenhouse:block/aloe_kernels_bag" },
+    "facing=south": { "model": "justagreenhouse:block/aloe_kernels_bag", "y": 180 },
+    "facing=west":  { "model": "justagreenhouse:block/aloe_kernels_bag", "y": 270 },
+    "facing=east":  { "model": "justagreenhouse:block/aloe_kernels_bag", "y": 90 }
   }
 }

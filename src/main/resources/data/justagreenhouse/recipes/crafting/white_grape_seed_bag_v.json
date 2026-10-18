@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vinery"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "vinery:white_grape_seeds"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:white_grape_seed_bag_v",
+        "count": 1
+    }
+}

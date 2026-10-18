@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "justagreenhouse:item/starfruit_seed_bag"
+    "layer0": "justagreenhouse:item/extravagantdelight/starfruit_seed_bag"
   }
 }

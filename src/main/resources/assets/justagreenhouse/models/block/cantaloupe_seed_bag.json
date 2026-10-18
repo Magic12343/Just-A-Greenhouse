@@ -1,8 +1,12 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "block/cube",
   "textures": {
-    "bottom": "justagreenhouse:block/bag_summer_bottom",
-    "side": "justagreenhouse:block/bag_summer_side",
-    "top": "justagreenhouse:block/cantaloupe_seed_bag_top"
+    "particle": "delightful:item/cantaloupe_seeds",
+    "north": "justagreenhouse:block/delightful/cantaloupe_seed_bag_front",
+    "south": "justagreenhouse:block/bag_summer_side",
+    "east":  "justagreenhouse:block/bag_summer_side",
+    "west":  "justagreenhouse:block/bag_summer_side",
+    "up":    "justagreenhouse:block/delightful/cantaloupe_seed_bag_top",
+    "down":  "justagreenhouse:block/bag_summer_bottom"
   }
 }

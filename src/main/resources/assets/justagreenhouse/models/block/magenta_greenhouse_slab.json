@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "justagreenhouse:block/magenta_greenhouse_block",
+    "side": "justagreenhouse:block/magenta_greenhouse_block",
+    "top": "justagreenhouse:block/magenta_greenhouse_block"
+  }
+}

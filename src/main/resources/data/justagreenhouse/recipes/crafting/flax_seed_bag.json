@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "supplementaries:flax_seeds"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:flax_seed_bag",
+        "count": 1
+    }
+}

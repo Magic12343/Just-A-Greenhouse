@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vinery"
+    }
+  ],
+    "ingredients": [
+        {
+            "item": "justagreenhouse:jungle_red_grape_seed_bag_v"
+        }
+    ],
+    "result": {
+        "item": "vinery:jungle_grape_seeds_red",
+        "count": 9
+    }
+}

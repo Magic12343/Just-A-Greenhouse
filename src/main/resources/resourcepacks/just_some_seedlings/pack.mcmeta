@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Replaces names and textures of some modded Fruited Trees for Seedlings like Extravagant Delight has."
+  },
+  "forge:resource_pack_order": "top"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "just_some_seedlings:item/ramadandelight/date_seedling"
+  }
+}

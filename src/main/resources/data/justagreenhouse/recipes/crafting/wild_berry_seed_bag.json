@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "windswept"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "berry_good"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "windswept:wild_berry_pips"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:wild_berry_seed_bag",
+        "count": 1
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "justagreenhouse:seedling_grower",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extravagantdelight"
+    }
+  ],
+  "inputA": { "item": "extravagantdelight:lush_mango" },
+  "inputB": { "item": "minecraft:bone_meal" },
+  "output": { "item": "extravagantdelight:mango_seedling", "count": 2 }
+}

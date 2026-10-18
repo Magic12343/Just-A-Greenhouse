@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "vinery:item/red_grape_seeds",
+    "north": "justagreenhouse:block/vinery/red_grape_seed_bag_front",
+    "south": "justagreenhouse:block/anual_bag_side",
+    "east":  "justagreenhouse:block/anual_bag_side",
+    "west":  "justagreenhouse:block/anual_bag_side",
+    "up":    "justagreenhouse:block/vinery/red_grape_seed_bag_top",
+    "down":  "justagreenhouse:block/anual_bag_bottom"
+  }
+}

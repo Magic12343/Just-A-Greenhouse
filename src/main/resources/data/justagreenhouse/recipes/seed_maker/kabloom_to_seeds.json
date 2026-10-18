@@ -1,0 +1,18 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cosmopolitan"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "habitat"
+    }
+  ],
+  "ingredient": {
+    "item": "habitat:kabloom_pulp"
+  },
+  "result": "justagreenhouse:kabloom_seed_bag",
+  "count": 1
+}

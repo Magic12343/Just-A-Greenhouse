@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "vintagedelight:item/ghost_pepper_seeds",
+    "north": "justagreenhouse:block/vintagedelight/ghost_pepper_seed_bag_front",
+    "south": "justagreenhouse:block/bag_spring_summer_side",
+    "east":  "justagreenhouse:block/bag_spring_summer_side",
+    "west":  "justagreenhouse:block/bag_spring_summer_side",
+    "up":    "justagreenhouse:block/vintagedelight/ghost_pepper_seed_bag_top",
+    "down":  "justagreenhouse:block/bag_spring_summer_bottom"
+  }
+}

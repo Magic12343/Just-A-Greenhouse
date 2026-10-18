@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "extravagantdelight:item/muscatine_pips",
+    "north": "justagreenhouse:block/extravagantdelight/muscadine_seed_bag_front",
+    "south": "justagreenhouse:block/bag_summer_autumn_side",
+    "east":  "justagreenhouse:block/bag_summer_autumn_side",
+    "west":  "justagreenhouse:block/bag_summer_autumn_side",
+    "up":    "justagreenhouse:block/extravagantdelight/muscadine_seed_bag_top",
+    "down":  "justagreenhouse:block/bag_summer_autumn_bottom"
+  }
+}

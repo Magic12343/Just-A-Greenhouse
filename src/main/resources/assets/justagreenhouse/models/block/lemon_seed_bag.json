@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "fruitsdelight:item/lemon_seeds",
+    "north": "justagreenhouse:block/fruitsdelight/lemon_seed_bag_front",
+    "south": "justagreenhouse:block/bag_summer_side",
+    "east":  "justagreenhouse:block/bag_summer_side",
+    "west":  "justagreenhouse:block/bag_summer_side",
+    "up":    "justagreenhouse:block/fruitsdelight/lemon_seed_bag_top",
+    "down":  "justagreenhouse:block/bag_summer_bottom"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "__",
+        "__",
+        "__"
+    ],
+    "key": {
+        "_": {
+            "item": "justagreenhouse:lime_greenhouse_glass"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:lime_greenhouse_door",
+        "count": 3
+    }
+}

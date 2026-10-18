@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cosmopolitan"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ],
+    "ingredients": [
+        {
+            "item": "justagreenhouse:blisterberry_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "cosmopolitan:blisterberry_pips",
+        "count": 9
+    }
+}

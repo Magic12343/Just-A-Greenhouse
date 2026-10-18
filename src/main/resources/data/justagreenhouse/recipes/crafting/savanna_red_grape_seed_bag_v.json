@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vinery"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "vinery:savanna_grape_seeds_red"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:savanna_red_grape_seed_bag_v",
+        "count": 1
+    }
+}

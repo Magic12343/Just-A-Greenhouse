@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#_#"
+    ],
+    "key": {
+        "#": {
+            "item": "justagreenhouse:brown_greenhouse_post"
+        },
+        "_": {
+            "item": "justagreenhouse:brown_greenhouse_slab"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:brown_catwalk",
+        "count": 6
+    }
+}

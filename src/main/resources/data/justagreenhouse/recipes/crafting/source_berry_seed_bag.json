@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cosmopolitan"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "cosmopolitan:source_berry_pips"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:source_berry_seed_bag",
+        "count": 1
+    }
+}

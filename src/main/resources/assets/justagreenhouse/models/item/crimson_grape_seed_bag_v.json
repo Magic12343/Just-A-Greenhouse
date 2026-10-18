@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "justagreenhouse:item/nethervinery/crimson_grape_seed_bag"
+  }
+}

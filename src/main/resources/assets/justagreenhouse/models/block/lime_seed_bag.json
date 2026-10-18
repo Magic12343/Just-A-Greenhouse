@@ -1,8 +1,12 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "block/cube",
   "textures": {
-    "bottom": "justagreenhouse:block/bag_spring_bottom",
-    "side": "justagreenhouse:block/bag_spring_side",
-    "top": "justagreenhouse:block/lime_seed_bag_top"
+    "particle": "collectorsreap:item/lime_seeds",
+    "north": "justagreenhouse:block/collectorsreap/lime_seed_bag_front",
+    "south": "justagreenhouse:block/bag_spring_side",
+    "east":  "justagreenhouse:block/bag_spring_side",
+    "west":  "justagreenhouse:block/bag_spring_side",
+    "up":    "justagreenhouse:block/collectorsreap/lime_seed_bag_top",
+    "down":  "justagreenhouse:block/bag_spring_bottom"
   }
 }

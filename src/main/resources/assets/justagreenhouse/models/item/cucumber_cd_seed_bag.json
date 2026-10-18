@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "justagreenhouse:item/vintagedelight/cucumber_seed_bag"
+  }
+}

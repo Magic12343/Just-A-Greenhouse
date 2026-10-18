@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cosmopolitan"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ],
+    "ingredients": [
+        {
+            "item": "justagreenhouse:droopfruit_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "cosmopolitan:droopfruit_pips",
+        "count": 9
+    }
+}

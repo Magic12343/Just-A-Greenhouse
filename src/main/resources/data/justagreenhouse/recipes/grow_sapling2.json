@@ -1,0 +1,6 @@
+{
+  "type": "justagreenhouse:seedling_grower",
+  "inputA": { "item": "minecraft:spruce_sapling" },
+  "inputB": { "item": "minecraft:bone_meal" },
+  "output": { "item": "minecraft:oak_log", "count": 3 }
+}

@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "facing=north,state=default": { "model": "justagreenhouse:block/greenhouse_detector_default", "y": 180 },
+    "facing=south,state=default": { "model": "justagreenhouse:block/greenhouse_detector_default", "y": 0 },
+    "facing=west,state=default":  { "model": "justagreenhouse:block/greenhouse_detector_default", "y": 90 },
+    "facing=east,state=default":  { "model": "justagreenhouse:block/greenhouse_detector_default", "y": 270 },
+    "facing=up,state=default":    { "model": "justagreenhouse:block/greenhouse_detector_default", "x": -90 },
+    "facing=down,state=default":  { "model": "justagreenhouse:block/greenhouse_detector_default", "x": 90 },
+
+    "facing=north,state=valid": { "model": "justagreenhouse:block/greenhouse_detector_valid", "y": 180 },
+    "facing=south,state=valid": { "model": "justagreenhouse:block/greenhouse_detector_valid", "y": 0 },
+    "facing=west,state=valid":  { "model": "justagreenhouse:block/greenhouse_detector_valid", "y": 90 },
+    "facing=east,state=valid":  { "model": "justagreenhouse:block/greenhouse_detector_valid", "y": 270 },
+    "facing=up,state=valid":    { "model": "justagreenhouse:block/greenhouse_detector_valid", "x": -90 },
+    "facing=down,state=valid":  { "model": "justagreenhouse:block/greenhouse_detector_valid", "x": 90 },
+
+    "facing=north,state=invalid": { "model": "justagreenhouse:block/greenhouse_detector_invalid", "y": 180 },
+    "facing=south,state=invalid": { "model": "justagreenhouse:block/greenhouse_detector_invalid", "y": 0 },
+    "facing=west,state=invalid":  { "model": "justagreenhouse:block/greenhouse_detector_invalid", "y": 90 },
+    "facing=east,state=invalid":  { "model": "justagreenhouse:block/greenhouse_detector_invalid", "y": 270 },
+    "facing=up,state=invalid":    { "model": "justagreenhouse:block/greenhouse_detector_invalid", "x": -90 },
+    "facing=down,state=invalid":  { "model": "justagreenhouse:block/greenhouse_detector_invalid", "x": 90 }
+  }
+}

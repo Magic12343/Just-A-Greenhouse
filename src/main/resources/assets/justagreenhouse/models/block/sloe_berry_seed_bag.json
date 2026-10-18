@@ -1,8 +1,12 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "block/cube",
   "textures": {
-    "bottom": "justagreenhouse:block/cabbage_seeds_bag_bottom",
-    "side": "justagreenhouse:block/cabbage_seeds_bag_side",
-    "top": "justagreenhouse:block/sloe_berry_bag_top"
+    "particle": "extravagantdelight:item/sloe_berry_pips",
+    "north": "justagreenhouse:block/extravagantdelight/sloe_berry_seed_bag_front",
+    "south": "justagreenhouse:block/bag_summer_autumn_side",
+    "east":  "justagreenhouse:block/bag_summer_autumn_side",
+    "west":  "justagreenhouse:block/bag_summer_autumn_side",
+    "up":    "justagreenhouse:block/extravagantdelight/sloe_berry_seed_bag_top",
+    "down":  "justagreenhouse:block/bag_summer_autumn_bottom"
   }
 }

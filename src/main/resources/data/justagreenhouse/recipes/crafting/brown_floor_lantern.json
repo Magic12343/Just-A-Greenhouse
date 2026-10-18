@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_",
+        "D"
+    ],
+    "key": {
+        "_": {
+            "item": "justagreenhouse:brown_greenhouse_lantern"
+        },
+        "D": {
+            "item": "justagreenhouse:brown_greenhouse_post"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:brown_floor_lantern",
+        "count": 1
+    }
+}

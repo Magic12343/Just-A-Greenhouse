@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "vintagedelight:cucumber_seeds"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:cucumber_cd_seed_bag",
+        "count": 1
+    }
+}

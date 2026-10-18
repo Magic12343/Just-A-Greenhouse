@@ -1,0 +1,12 @@
+{
+  "type": "justagreenhouse:seedling_grower",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "beachparty"
+    }
+  ],
+  "inputA": { "item": "beachparty:coconut" },
+  "inputB": { "item": "minecraft:bone_meal" },
+  "output": { "item": "beachparty:palm_sprout", "count": 2 }
+}

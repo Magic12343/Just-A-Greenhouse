@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "justagreenhouse:item/extravagantdelight/hop_seed_bag"
+  }
+}

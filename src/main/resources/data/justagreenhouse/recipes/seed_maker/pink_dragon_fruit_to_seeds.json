@@ -1,0 +1,14 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "collectorsreap"
+    }
+  ],
+  "ingredient": {
+    "item": "collectorsreap:pink_dragon_fruit"
+  },
+  "result": "justagreenhouse:pink_dragon_fruit_seed_bag",
+  "count": 1
+}

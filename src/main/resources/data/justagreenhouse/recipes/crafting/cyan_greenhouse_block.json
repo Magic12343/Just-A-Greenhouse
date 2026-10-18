@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iGi",
+        "iii"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:cyan_dye"
+        },
+        "i": {
+      "tag": "justagreenhouse:greenhouse_block"
+              }
+    },
+    "result": {
+        "item": "justagreenhouse:cyan_greenhouse_block",
+        "count": 8
+    }
+}

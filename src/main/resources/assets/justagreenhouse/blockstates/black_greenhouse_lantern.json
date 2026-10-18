@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "justagreenhouse:block/black_greenhouse_lantern"
+    },
+    "hanging=true": {
+      "model": "justagreenhouse:block/black_greenhouse_lantern_hanging"
+    }
+  }
+}

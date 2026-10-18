@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "nethervinery"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "nethervinery:warped_grape_seeds"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:warped_grape_seed_bag_v",
+        "count": 1
+    }
+}

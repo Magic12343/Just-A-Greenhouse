@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "collectorsreap"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "collectorsreap:dragon_fruit_seeds"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:dragon_fruit_seed_bag",
+        "count": 1
+    }
+}

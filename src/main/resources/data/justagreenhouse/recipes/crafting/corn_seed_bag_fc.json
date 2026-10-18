@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farm_and_charm"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "farm_and_charm:kernels"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:corn_seed_bag_fc",
+        "count": 1
+    }
+}

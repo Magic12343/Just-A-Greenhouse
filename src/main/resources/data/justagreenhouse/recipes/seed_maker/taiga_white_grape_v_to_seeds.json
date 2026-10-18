@@ -1,0 +1,14 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vinery"
+    }
+  ],
+  "ingredient": {
+    "item": "vinery:taiga_grapes_white"
+  },
+  "result": "justagreenhouse:taiga_white_grape_seed_bag_v",
+  "count": 1
+}

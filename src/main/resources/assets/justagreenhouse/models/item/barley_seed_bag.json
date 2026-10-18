@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "justagreenhouse:item/extravagantdelight/barley_seed_bag"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "justagreenhouse:item/parsley_seed_bag"
+    "layer0": "justagreenhouse:item/ramadandelight/parsley_seed_bag"
   }
 }

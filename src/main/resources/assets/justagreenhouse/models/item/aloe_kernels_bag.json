@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "justagreenhouse:item/aloe_kernels_bag"
+    "layer0": "justagreenhouse:item/atmospheric/aloe_kernels_bag"
   }
 }

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enlightened_end"
+    }
+  ],
+    "ingredients": [
+        {
+            "item": "justagreenhouse:elevibloom_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "enlightened_end:elevibloom_seeds",
+        "count": 9
+    }
+}

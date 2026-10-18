@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "justagreenhouse:red_greenhouse_block"
+        },
+        {
+            "item": "justagreenhouse:red_greenhouse_block"
+        }
+    ],
+    "result": {
+        "item": "justagreenhouse:red_greenhouse_pillar",
+        "count": 2
+    }
+}

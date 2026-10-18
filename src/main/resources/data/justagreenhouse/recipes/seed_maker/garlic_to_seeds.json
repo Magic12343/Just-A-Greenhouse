@@ -1,5 +1,11 @@
 {
   "type": "justagreenhouse:seed_maker",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "veggiesdelight"
+    }
+  ],
   "ingredient": {
     "item": "veggiesdelight:garlic"
   },

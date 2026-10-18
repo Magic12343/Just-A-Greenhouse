@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "culturaldelights"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "culturaldelights:corn_kernels"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:corn_seed_bag",
+        "count": 1
+    }
+}

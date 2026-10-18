@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ],
+    "ingredients": [
+        {
+            "item": "justagreenhouse:flax_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "supplementaries:flax_seeds",
+        "count": 9
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "justagreenhouse:block/light_blue_greenhouse_block",
+    "side": "justagreenhouse:block/light_blue_greenhouse_pillar"
+  }
+}

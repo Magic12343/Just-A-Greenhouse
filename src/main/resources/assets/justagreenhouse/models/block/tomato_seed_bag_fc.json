@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "farm_and_charm:item/tomato_seeds",
+    "north": "justagreenhouse:block/farm_and_charm/tomato_seed_bag_front",
+    "south": "justagreenhouse:block/anual_bag_side",
+    "east":  "justagreenhouse:block/anual_bag_side",
+    "west":  "justagreenhouse:block/anual_bag_side",
+    "up":    "justagreenhouse:block/farm_and_charm/tomato_seed_bag_top",
+    "down":  "justagreenhouse:block/anual_bag_bottom"
+  }
+}

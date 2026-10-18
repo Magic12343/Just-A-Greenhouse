@@ -1,8 +1,12 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "block/cube",
   "textures": {
-    "bottom": "justagreenhouse:block/anual_bag_bottom",
-    "side": "justagreenhouse:block/anual_bag_side",
-    "top": "justagreenhouse:block/passionfruit_vine_bag_top"
+    "particle": "atmospheric:block/passion_vine_middle_stage0",
+    "north": "justagreenhouse:block/atmospheric/passion_fruit_seed_bag_front",
+    "south": "justagreenhouse:block/anual_bag_side",
+    "east":  "justagreenhouse:block/anual_bag_side",
+    "west":  "justagreenhouse:block/anual_bag_side",
+    "up":    "justagreenhouse:block/atmospheric/passionfruit_vine_bag_top",
+    "down":  "justagreenhouse:block/anual_bag_bottom"
   }
 }

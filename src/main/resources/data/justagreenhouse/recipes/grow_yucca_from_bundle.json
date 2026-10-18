@@ -1,0 +1,12 @@
+{
+  "type": "justagreenhouse:seedling_grower",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "atmospheric"
+    }
+  ],
+  "inputA": { "item": "atmospheric:yucca_bundle" },
+  "inputB": { "item": "minecraft:bone_meal" },
+  "output": { "item": "atmospheric:yucca_sapling", "count": 10 }
+}

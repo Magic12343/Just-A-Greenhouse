@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cosmopolitan"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "cosmopolitan:droopfruit_pips"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:droopfruit_seed_bag",
+        "count": 1
+    }
+}

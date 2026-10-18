@@ -1,7 +1,8 @@
 {
   "variants": {
-    "": {
-      "model": "justagreenhouse:block/starfruit_seed_bag"
-    }
+    "facing=north": { "model": "justagreenhouse:block/starfruit_seed_bag" },
+    "facing=south": { "model": "justagreenhouse:block/starfruit_seed_bag", "y": 180 },
+    "facing=west":  { "model": "justagreenhouse:block/starfruit_seed_bag", "y": 270 },
+    "facing=east":  { "model": "justagreenhouse:block/starfruit_seed_bag", "y": 90 }
   }
 }

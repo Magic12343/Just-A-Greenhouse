@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "justagreenhouse:item/snowyspirit/ginger_seed_bag"
+  }
+}

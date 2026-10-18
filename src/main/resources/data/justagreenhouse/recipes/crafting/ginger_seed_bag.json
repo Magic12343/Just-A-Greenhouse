@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "snowyspirit"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "snowyspirit:ginger_flower"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:ginger_seed_bag",
+        "count": 1
+    }
+}

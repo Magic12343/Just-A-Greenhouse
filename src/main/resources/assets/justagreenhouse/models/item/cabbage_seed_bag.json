@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "justagreenhouse:item/cabbage_seeds_bag"
+    "layer0": "justagreenhouse:item/farmersdelight/cabbage_seeds_bag"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "culturaldelights"
+    }
+  ],
+  "ingredient": {
+    "item": "culturaldelights:white_eggplant"
+  },
+  "result": "culturaldelights:eggplant_seeds",
+  "count": 1
+}

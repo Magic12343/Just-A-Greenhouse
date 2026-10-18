@@ -1,0 +1,12 @@
+{
+  "type": "justagreenhouse:seedling_grower",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "upgrade_aquatic"
+    }
+  ],
+  "inputA": { "item": "upgrade_aquatic:mulberry" },
+  "inputB": { "item": "minecraft:bone_meal" },
+  "output": { "item": "upgrade_aquatic:river_sapling", "count": 2 }
+}

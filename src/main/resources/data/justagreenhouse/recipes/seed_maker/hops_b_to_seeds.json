@@ -1,0 +1,14 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewery"
+    }
+  ],
+  "ingredient": {
+    "item": "brewery:hops"
+  },
+  "result": "justagreenhouse:hop_seed_bag_b",
+  "count": 1
+}

@@ -1,0 +1,14 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fruitsdelight"
+    }
+  ],
+  "ingredient": {
+    "item": "fruitsdelight:hamimelon_slice"
+  },
+  "result": "fruitsdelight:hamimelon_seeds",
+  "count": 2
+}

@@ -1,8 +1,12 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "block/cube",
   "textures": {
-    "bottom": "justagreenhouse:block/bag_spring_autumn_summer_bottom",
-    "side": "justagreenhouse:block/bag_spring_autumn_summer_side",
-    "top": "justagreenhouse:block/garlic_seed_bag_top"
+    "particle": "veggiesdelight:item/garlic_clove",
+    "north": "justagreenhouse:block/veggiesdelight/garlic_seed_bag_front",
+    "south": "justagreenhouse:block/bag_spring_autumn_summer_side",
+    "east":  "justagreenhouse:block/bag_spring_autumn_summer_side",
+    "west":  "justagreenhouse:block/bag_spring_autumn_summer_side",
+    "up":    "justagreenhouse:block/veggiesdelight/garlic_seed_bag_top",
+    "down":  "justagreenhouse:block/bag_spring_autumn_summer_bottom"
   }
 }

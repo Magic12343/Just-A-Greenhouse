@@ -1,0 +1,6 @@
+{
+  "type": "justagreenhouse:seedling_grower",
+  "inputA": { "item": "minecraft:chorus_fruit" },
+  "inputB": { "item": "minecraft:bone_meal" },
+  "output": { "item": "minecraft:chorus_flower", "count": 2 }
+}

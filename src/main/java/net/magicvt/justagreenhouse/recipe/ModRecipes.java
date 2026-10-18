@@ -23,6 +23,13 @@ public class ModRecipes {
     public static final RegistryObject<RecipeType<SeedMakerRecipe>> SEED_MAKER_RECIPE_TYPE =
             TYPES.register("seed_maker", () -> SeedMakerRecipeType.INSTANCE);
 
+    public static final RegistryObject<RecipeSerializer<SeedlingGrowerRecipe>> SEEDLING_GROWER_RECIPE_SERIALIZER =
+            SERIALIZERS.register("seedling_grower", SeedlingGrowerRecipeSerializer::new);
+
+    public static final RegistryObject<RecipeType<SeedlingGrowerRecipe>> SEEDLING_GROWER_RECIPE_TYPE =
+            TYPES.register("seedling_grower", () -> SeedlingGrowerRecipeType.INSTANCE);
+
+
     public static void register() {
         SERIALIZERS.register(FMLJavaModLoadingContext.get().getModEventBus());
         TYPES.register(FMLJavaModLoadingContext.get().getModEventBus());

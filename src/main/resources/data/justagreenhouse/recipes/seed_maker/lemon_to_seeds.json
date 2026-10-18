@@ -1,0 +1,14 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fruitsdelight"
+    }
+  ],
+  "ingredient": {
+    "item": "fruitsdelight:lemon"
+  },
+  "result": "justagreenhouse:lemon_seed_bag",
+  "count": 1
+}

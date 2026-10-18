@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "snowyspirit:item/ginger_flower",
+    "north": "justagreenhouse:block/snowyspirit/ginger_seed_bag_front",
+    "south": "justagreenhouse:block/anual_bag_side",
+    "east":  "justagreenhouse:block/anual_bag_side",
+    "west":  "justagreenhouse:block/anual_bag_side",
+    "up":    "justagreenhouse:block/snowyspirit/ginger_seed_bag_top",
+    "down":  "justagreenhouse:block/anual_bag_bottom"
+  }
+}

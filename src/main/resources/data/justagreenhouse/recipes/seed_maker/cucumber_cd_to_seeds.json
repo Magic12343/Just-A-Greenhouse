@@ -1,0 +1,14 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ],
+  "ingredient": {
+    "item": "vintagedelight:cucumber"
+  },
+  "result": "justagreenhouse:cucumber_cd_seed_bag",
+  "count": 1
+}

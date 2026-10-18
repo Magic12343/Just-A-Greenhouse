@@ -1,0 +1,12 @@
+{
+  "type": "justagreenhouse:seedling_grower",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extravagantdelight"
+    }
+  ],
+  "inputA": { "item": "extravagantdelight:grapefruit" },
+  "inputB": { "item": "minecraft:bone_meal" },
+  "output": { "item": "extravagantdelight:grapefruit_seedling", "count": 2 }
+}

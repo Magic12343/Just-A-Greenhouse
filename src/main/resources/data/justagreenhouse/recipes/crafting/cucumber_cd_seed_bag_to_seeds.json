@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ],
+    "ingredients": [
+        {
+            "item": "justagreenhouse:cucumber_cd_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "vintagedelight:cucumber_seeds",
+        "count": 9
+    }
+}

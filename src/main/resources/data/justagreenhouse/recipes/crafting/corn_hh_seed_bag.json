@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hauntedharvest"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "hauntedharvest:kernels"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:corn_hh_seed_bag",
+        "count": 1
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "culturaldelights"
+    }
+  ],
+    "ingredients": [
+        {
+            "item": "justagreenhouse:eggplant_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "culturaldelights:eggplant_seeds",
+        "count": 9
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "justagreenhouse:block/hop_seed_bag_b" },
+    "facing=south": { "model": "justagreenhouse:block/hop_seed_bag_b", "y": 180 },
+    "facing=west":  { "model": "justagreenhouse:block/hop_seed_bag_b", "y": 270 },
+    "facing=east":  { "model": "justagreenhouse:block/hop_seed_bag_b", "y": 90 }
+  }
+}

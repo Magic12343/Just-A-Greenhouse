@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cosmopolitan"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "habitat"
+    }
+  ],
+    "ingredients": [
+        {
+            "item": "justagreenhouse:kabloom_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "cosmopolitan:kabloom_pips",
+        "count": 9
+    }
+}

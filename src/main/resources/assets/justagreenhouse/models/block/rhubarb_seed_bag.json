@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "extravagantdelight:item/rhubarb_seeds",
+    "north": "justagreenhouse:block/extravagantdelight/rhubarb_seed_bag_front",
+    "south": "justagreenhouse:block/bag_spring_side",
+    "east":  "justagreenhouse:block/bag_spring_side",
+    "west":  "justagreenhouse:block/bag_spring_side",
+    "up":    "justagreenhouse:block/extravagantdelight/rhubarb_seed_bag_top",
+    "down":  "justagreenhouse:block/bag_spring_bottom"
+  }
+}

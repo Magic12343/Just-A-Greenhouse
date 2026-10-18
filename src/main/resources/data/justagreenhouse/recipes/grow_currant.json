@@ -1,0 +1,12 @@
+{
+  "type": "justagreenhouse:seedling_grower",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "atmospheric"
+    }
+  ],
+  "inputA": { "item": "atmospheric:currant" },
+  "inputB": { "item": "minecraft:bone_meal" },
+  "output": { "item": "atmospheric:currant_seedling", "count": 2 }
+}

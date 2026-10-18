@@ -1,0 +1,14 @@
+{
+  "type": "justagreenhouse:seed_maker",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vinery"
+    }
+  ],
+  "ingredient": {
+    "item": "vinery:jungle_grapes_red"
+  },
+  "result": "justagreenhouse:jungle_red_grape_seed_bag_v",
+  "count": 1
+}

@@ -1,8 +1,12 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "block/cube",
   "textures": {
-    "bottom": "justagreenhouse:block/cabbage_seeds_bag_bottom",
-    "side": "justagreenhouse:block/cabbage_seeds_bag_side",
-    "top": "justagreenhouse:block/cauliflower_seed_bag_top"
+    "particle": "veggiesdelight:item/cauliflower_seeds",
+    "north": "justagreenhouse:block/veggiesdelight/cauliflower_seed_bag_front",
+    "south": "justagreenhouse:block/bag_winter_autumn_side",
+    "east":  "justagreenhouse:block/bag_winter_autumn_side",
+    "west":  "justagreenhouse:block/bag_winter_autumn_side",
+    "up":    "justagreenhouse:block/veggiesdelight/cauliflower_seed_bag_top",
+    "down":  "justagreenhouse:block/bag_winter_autumn_bottom"
   }
 }

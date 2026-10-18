@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "vintagedelight:item/oat_seeds",
+    "north": "justagreenhouse:block/vintagedelight/oat_seed_bag_front",
+    "south": "justagreenhouse:block/bag_winter_autumn_side",
+    "east":  "justagreenhouse:block/bag_winter_autumn_side",
+    "west":  "justagreenhouse:block/bag_winter_autumn_side",
+    "up":    "justagreenhouse:block/vintagedelight/oat_seed_bag_top",
+    "down":  "justagreenhouse:block/bag_winter_autumn_bottom"
+  }
+}

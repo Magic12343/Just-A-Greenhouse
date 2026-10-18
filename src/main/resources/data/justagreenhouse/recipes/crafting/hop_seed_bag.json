@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extravagantdelight"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "extravagantdelight:hops_seeds"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:hop_seed_bag",
+        "count": 1
+    }
+}

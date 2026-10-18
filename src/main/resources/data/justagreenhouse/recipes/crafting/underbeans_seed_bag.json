@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cosmopolitan"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "cosmopolitan:sprouted_underbeans"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:underbeans_seed_bag",
+        "count": 1
+    }
+}

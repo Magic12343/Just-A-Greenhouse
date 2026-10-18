@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "nirvana"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "nirvana:hemp_seeds"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:hemp_seed_bag",
+        "count": 1
+    }
+}

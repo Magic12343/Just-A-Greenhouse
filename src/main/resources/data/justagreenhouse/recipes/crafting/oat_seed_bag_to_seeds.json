@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ],
+    "ingredients": [
+        {
+            "item": "justagreenhouse:oat_seed_bag"
+        }
+    ],
+    "result": {
+        "item": "vintagedelight:oat_seeds",
+        "count": 9
+    }
+}

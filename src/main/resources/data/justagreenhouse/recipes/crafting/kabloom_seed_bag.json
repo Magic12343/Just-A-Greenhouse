@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cosmopolitan"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "habitat"
+    }
+  ],
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "cosmopolitan:kabloom_pips"
+        }
+    },
+    "result": {
+        "item": "justagreenhouse:kabloom_seed_bag",
+        "count": 1
+    }
+}
